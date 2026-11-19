@@ -1,6 +1,5 @@
 {
   "label": "UC dawn",
-  "_focal": "The painting's horizon point as fractions of the image (x across, y down). Set y to where the horizon sits in Gemini's paintings. cover: the point of Gemini's cover painting that crops keep in view (the campus is at 0.78 across).",
   "focal": {
     "portrait": {
       "x": 0.5,
@@ -15,19 +14,15 @@
       "y": 0.55
     }
   },
-  "_sun": "Where the sun rises in the portrait paintings (between the towers). Computer screens built from the portrait paintings place it away from the text column.",
   "sun": {
     "x": 0.59,
     "y": 0.75
   },
-  "_towerTop": "Where the tops of the two towers sit in the portrait paintings, as a fraction of the height (measured on the sunrise painting; all four share the composition). Phones and tablets move the painting down when the fullest text block would come closer to them than 0.058 of the screen's height.",
   "towerTop": 0.7456,
-  "_windows": "Windows screens use the landscape paintings mirrored left to right (the campus on the left, the text column on the calm right), cropped to 16:9 from the top so the horizon and the clock corner stay clear. Mac screens use them as they are.",
   "windows": {
     "mirror": true,
     "crop": "top"
   },
-  "_files": "Which phase images exist, per orientation (npm run art:prepare keeps this up to date). The browser requests only these. Computer screens use the landscape paintings once all four exist; until then (and for uploaded pictures) they extend the portrait paintings sideways.",
   "files": {
     "portrait": [
       "night",
@@ -43,6 +38,5 @@
     ]
   },
   "dim": 0,
-  "sky": true,
-  "_source": "Paintings by Google Gemini, prepared by scripts/art_prepare.py (2x Lanczos upscale, sky debanding; originals never modified). Which files are Gemini's and which are still stand-ins is recorded in data/gemini.json (art.*)."
+  "sky": true
 }
