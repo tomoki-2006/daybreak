@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0a0b14" />
+    <title>Daybreak Daily Update</title>
+    <meta name="description" content="Make a Daybreak lock screen change every morning with a four-action iPhone Shortcut: today's date picks today's picture. About five minutes to set up, once." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://tomoki-2006.github.io/daybreak/shortcut.html" />
+    <meta property="og:title" content="Daybreak: make your lock screen change every morning" />
+    <meta property="og:description" content="Four Shortcut actions: Date, Format Date, Get Contents of URL, Set Wallpaper. About five minutes to set up." />
+    <meta property="og:image" content="https://tomoki-2006.github.io/daybreak/cover/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Daybreak: make your lock screen change every morning" />
+    <meta name="twitter:description" content="Four Shortcut actions: Date, Format Date, Get Contents of URL, Set Wallpaper. About five minutes to set up." />
+    <meta name="twitter:image" content="https://tomoki-2006.github.io/daybreak/cover/og.png" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <script type="module" crossorigin src="./assets/shortcut-BTGxUb-Q.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/config-BmUlUjgi.js">
+    <link rel="modulepreload" crossorigin href="./assets/site-BTsRiSAJ.js">
+    <link rel="stylesheet" crossorigin href="./assets/config-Dy9Zaycy.css">
+    <link rel="stylesheet" crossorigin href="./assets/style-Dhhgq6KA.css">
+  </head>
+  <body>
+    <header class="top">
+      <div class="brand"><a class="home" href="./index.html"><h1>Daybreak</h1></a><span>a lock screen that changes every morning</span></div>
+      <nav>
+        <a href="./index.html">Story</a>
+        <a href="./make.html" id="navMake">Make</a>
+        <a href="./gallery.html">Gallery</a>
+        <a href="./shortcut.html" aria-current="page">Daily update</a>
+      </nav>
+    </header>
+
+    <main class="page guide">
+      <h2>Make it change every morning</h2>
+      <p class="lede">Every Daybreak picture is named by the morning it is for, like <span class="mono" id="lToday">2026-11-18.jpg</span>. A Shortcut with four actions reads today’s date, picks that picture and sets it as your Lock Screen. It needs no arithmetic and no deadline. Setting it up takes about five minutes, once.</p>
+
+      <!-- One-screen summary, personalised from the share link, the last countdown, or the UC countdown -->
+      <section class="card summary-card" id="summary">
+        <div class="sum-head">
+          <div>
+            <p class="eyebrow">Your countdown</p>
+            <h3 id="sTitle">UC transfer application</h3>
+            <p class="sum-meta"><span id="sDeadline">November 30, 2027</span> · <span id="sLeft">377 mornings left</span></p>
+          </div>
+          <a class="btn small" id="sEdit" href="./make.html">Edit in builder</a>
+        </div>
+        <table class="kv">
+          <tr><th>Today’s picture</th><td><span class="mono" id="sToday">2026-11-18.jpg</span></td></tr>
+          <tr id="sHostedRow"><th>Online pictures</th><td><span class="mono" id="sHosted">i/uc-transfer-app/2026-11-18.jpg</span></td></tr>
+          <tr><th>Offline folder</th><td><span class="mono" id="sFolder">iCloud Drive › Shortcuts › Daybreak › uc-transfer-app</span></td></tr>
+          <tr><th>Pictures run until</th><td><span id="sUntil">December 14, 2027 (two weeks of “Done” after the deadline)</span></td></tr>
+        </table>
+        <p class="note" id="sHostedNote" hidden>This countdown’s pictures are not online yet. Use the offline version below with a ZIP from the builder, or publish the pictures with your own copy of Daybreak (see the README).</p>
+      </section>
+
+      <section id="actions">
+        <h3 class="sec">The four actions</h3>
+        <p class="add-shortcut" id="addShortcut" hidden></p>
+        <p class="sub">Open <strong>Shortcuts</strong>, tap <strong>+</strong>, name the shortcut <strong>Daybreak</strong>, and add these actions in order. Find each one with the search field.</p>
+        <ol class="steps big">
+          <li><strong>Date</strong>, left on <strong>Current Date</strong>.</li>
+          <li><strong>Format Date</strong>: Date Format <strong>Custom</strong>, Format String <span class="mono">yyyy-MM-dd</span>. The capital <span class="mono">MM</span> is the month; a lower-case <span class="mono">mm</span> would give minutes.</li>
+          <li><strong>Get Contents of URL</strong>. In the URL field, paste <span class="mono" id="aBase">i/uc-transfer-app/</span> <button type="button" class="btn small" id="copyBase">Copy</button>, then insert the <strong>Formatted Date</strong> variable and type <span class="mono">.jpg</span>. The field then reads <span class="mono" id="aFull">i/uc-transfer-app/[Formatted Date].jpg</span>.</li>
+          <li><strong>Set Wallpaper</strong> (listed as <strong>Set Wallpaper Photo</strong> on some versions) with the downloaded picture as input. Choose <strong>Lock Screen</strong>, tap the arrow to show more options, and turn <strong>Show Preview</strong> off. If you see <strong>Crop to Subject</strong>, turn it off too.</li>
+        </ol>
+        <p class="sub">Tap ▶ once to test: lock the phone and this morning’s picture should be there.</p>
+        <p class="sub">The online pictures are all 1290 × 2796, the size of the larger iPhones; iOS scales them to fit other models. For a picture drawn at your phone’s exact pixel size, download it from the site or make a set in the builder and use the offline version below.</p>
+      </section>
+
+      <section id="automate">
+        <h3 class="sec">Run it every morning</h3>
+        <details open id="ios27">
+          <summary>iOS 27</summary>
+          <ol class="steps">
+            <li>Build the shortcut above first.</li>
+            <li>Open it, tap <strong>Edit › Automation</strong>, and add a <strong>Time of Day</strong> trigger: for example 6:00 AM, daily.</li>
+            <li>Tap <strong>Edit › Info › Privacy</strong> and turn on <strong>Allow Running When Locked</strong>, so it can run before you unlock the phone.</li>
+          </ol>
+        </details>
+        <details id="ios26">
+          <summary>iOS 26</summary>
+          <ol class="steps">
+            <li><strong>Shortcuts › Automation › +</strong>, then <strong>Time of Day</strong>: 6:00 AM, <strong>Daily</strong>.</li>
+            <li>Add the four actions (or choose <strong>Run Shortcut › Daybreak</strong>).</li>
+            <li>Choose <strong>Run Immediately</strong> and turn <strong>Notify When Run</strong> off.</li>
+          </ol>
+        </details>
+        <details id="ios16">
+          <summary>iOS 16 to 18</summary>
+          <ol class="steps">
+            <li><strong>Shortcuts › Automation › +</strong> (on iOS 16: Create Personal Automation) › <strong>Time of Day</strong>, 6:00 AM, Daily.</li>
+            <li>Run the <strong>Daybreak</strong> shortcut. On iOS 17 and 18 choose <strong>Run Immediately</strong>; on iOS 16 turn off <strong>Ask Before Running</strong>.</li>
+          </ol>
+        </details>
+        <p class="sub"><strong>Lock Screen, once:</strong> touch and hold the Lock Screen › <strong>Customize</strong>, then turn off <strong>Depth Effect</strong>, the <strong>spatial scene</strong> and <strong>Perspective Zoom</strong> where they appear. Keep the clock small: on iOS 27 choose the compact clock; on iOS 26 drag the clock’s handle back up. If a Focus mode is linked to another Lock Screen, unlink it.</p>
+      </section>
+
+      <section id="offline">
+        <h3 class="sec">Offline version: pictures in iCloud Drive</h3>
+        <details id="m2">
+          <summary>Use Get File instead of the internet</summary>
+          <ol class="steps big">
+            <li>In the builder, tap <strong>Download days (ZIP)</strong> on your iPhone and choose the next 30 days, the next 90 days, or all days. The pictures are JPEGs named by date.</li>
+            <li>In <strong>Files</strong>, tap the ZIP once to unzip it, then move the folder to <strong>iCloud Drive › Shortcuts › Daybreak</strong>. You end up with <span class="mono" data-fill="folderFull">iCloud Drive › Shortcuts › Daybreak › uc-transfer-app › 2026-11-18.jpg …</span></li>
+            <li>On iOS 18 or later, touch and hold the folder and tap <strong>Keep Downloaded</strong>, so the early-morning run works without signal.</li>
+            <li>Replace action 3 with <strong>Get File</strong>: Folder <strong>Shortcuts</strong> (the default), File Path <span class="mono" data-fill="path">Daybreak/uc-transfer-app/[Formatted Date].jpg</span>, and <strong>Error If Not Found</strong> on.</li>
+          </ol>
+          <p class="note">A 30- or 90-day ZIP runs out. The builder tells you the last date it covers: download the next set before then.</p>
+        </details>
+      </section>
+
+      <section id="more">
+        <h3 class="sec">Other devices</h3>
+        <details>
+          <summary>Android</summary>
+          <p>Copy the unzipped folder to phone storage, for example <span class="mono" data-fill="androidDir">Pictures/Daybreak/uc-transfer-app</span>. Use the <span class="mono">pixel-9</span> or <span class="mono">pixel-9-pro</span> pictures from the builder.</p>
+          <h4>Tasker</h4>
+          <ol class="steps">
+            <li>Profile: <strong>Time</strong>, 06:00.</li>
+            <li><strong>Parse/Format DateTime</strong>: Input Type <strong>Now</strong>, Output Format <span class="mono">yyyy-MM-dd</span>. The result is in <span class="mono">%formatted</span>.</li>
+            <li><strong>Set Wallpaper</strong> with the image <span class="mono" data-fill="androidFile">Pictures/Daybreak/uc-transfer-app/%formatted.jpg</span>, Lock Screen where offered.</li>
+          </ol>
+          <p><strong>No app:</strong> each morning, set the picture by hand from Photos › Use as wallpaper.</p>
+        </details>
+        <details>
+          <summary>Mac</summary>
+          <p>Shortcuts on the Mac can set the desktop picture, which also shows behind the login screen. Use the <span class="mono">mac-16x10</span> pictures, or download one for your own screen size from the start page.</p>
+          <p><strong>macOS 26 or later:</strong> build the same four actions and add a <strong>Time of Day</strong> automation set to <strong>Run Immediately</strong>.</p>
+          <p><strong>Older macOS:</strong> a launchd job (StartCalendarInterval Hour 6, Minute 0) that runs:</p>
+          <pre><code>/bin/zsh -c 'F=~/Daybreak/<span data-fill="slug">uc-transfer-app</span>/$(date +%F).jpg; osascript -e "tell application \"System Events\" to tell every desktop to set picture to POSIX file \"$F\""'</code></pre>
+          <p class="note"><span class="mono">date +%F</span> prints the date as YYYY-MM-DD, the same as the file names.</p>
+        </details>
+        <details>
+          <summary>Windows</summary>
+          <p>This script sets the desktop wallpaper. Only Enterprise and Education editions let a script set the Windows lock screen. Save it as <span class="mono">daybreak.ps1</span> and use the <span class="mono">win-16x9</span> pictures.</p>
+          <pre><code>$f = "$env:USERPROFILE\Pictures\Daybreak\<span data-fill="slug">uc-transfer-app</span>\$(Get-Date -Format yyyy-MM-dd).jpg"; Add-Type 'using System.Runtime.InteropServices;public class W{[DllImport("user32.dll",CharSet=CharSet.Unicode)]public static extern int SystemParametersInfo(int a,int b,string c,int d);}'; [W]::SystemParametersInfo(0x14,0,$f,3)</code></pre>
+          <p>Schedule it:</p>
+          <pre><code>schtasks /Create /TN Daybreak /SC DAILY /ST 06:00 /TR "powershell -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File %USERPROFILE%\daybreak.ps1"</code></pre>
+        </details>
+      </section>
+
+      <section id="trouble">
+        <h3 class="sec">Troubleshooting</h3>
+        <details>
+          <summary>Nothing changed in the morning</summary>
+          <ul class="facts">
+            <li>iOS 27: check <strong>Allow Running When Locked</strong> in the shortcut’s Info › Privacy. iOS 26 and earlier: the automation must say <strong>Run Immediately</strong>.</li>
+            <li>Open Set Wallpaper: <strong>Show Preview</strong> must be off.</li>
+            <li>The phone was off at that time. iOS doesn’t catch up on missed runs, so tap the shortcut once.</li>
+          </ul>
+        </details>
+        <details>
+          <summary>“File not found” or a 404</summary>
+          <ul class="facts">
+            <li>The format string must be exactly <span class="mono">yyyy-MM-dd</span>. Add <strong>Show Result</strong> after Format Date to check: it should read like <span class="mono" id="tExample">2026-11-18</span>.</li>
+            <li>The pictures run until two weeks after the deadline. Before the start date there is no picture yet.</li>
+            <li>Offline version: the folder names in the path must match Files exactly, including upper and lower case, and the ZIP you downloaded may have run out.</li>
+          </ul>
+        </details>
+        <details>
+          <summary>Picture zoomed, cropped or flipping back</summary>
+          <ul class="facts">
+            <li>Turn off Perspective Zoom. Make sure the pictures were made for your phone size (Device in the builder). The online pictures are 1290 × 2796 and iOS scales them to fit other iPhones.</li>
+            <li>A Focus mode linked to another Lock Screen can make the wallpaper flip back. Unlink it.</li>
+            <li>An occasional “error 2” from Set Wallpaper is an intermittent iOS error. Run again, or add <strong>Wait 1 second</strong> before it.</li>
+          </ul>
+        </details>
+      </section>
+
+      <section class="card sources" id="sources">
+        <h3>Sources</h3>
+        <h4>Official</h4>
+        <ul>
+          <li><a href="https://support.apple.com/en-us/HT204025">Apple: Set up iCloud Drive (Sync this iPhone)</a></li>
+          <li><a href="https://support.apple.com/en-asia/102532">Apple: Create or open ZIP files on iPhone</a></li>
+          <li><a href="https://support.apple.com/en-hk/guide/shortcuts/apdfbdbd7123/ios">Apple: Create a new personal automation in Shortcuts</a></li>
+          <li><a href="https://support.apple.com/en-ca/guide/shortcuts/apd690170742/9.0/ios/26">Apple: Intro to personal automation (iOS 26)</a></li>
+          <li><a href="https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/ScheduledJobs.html">Apple Developer: Scheduling timed jobs with launchd</a></li>
+          <li><a href="https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-systemparametersinfow">Microsoft: SystemParametersInfo (SPI_SETDESKWALLPAPER)</a></li>
+          <li><a href="https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/schtasks-create">Microsoft: schtasks create</a></li>
+          <li><a href="https://learn.microsoft.com/en-us/windows/client-management/mdm/personalization-csp">Microsoft: Personalization CSP (lock screen image, Enterprise/Education)</a></li>
+        </ul>
+        <h4>Other</h4>
+        <ul>
+          <li><a href="https://matthewcassinelli.com/actions/get-file-from-folder/">Matthew Cassinelli: Get File from Folder</a></li>
+          <li><a href="https://matthewcassinelli.com/automations-run-immediately-shortcuts-notifications">Matthew Cassinelli: iOS 17 Run Immediately / Run After Confirmation</a></li>
+          <li><a href="https://www.idownloadblog.com/2022/12/13/ios-16-2-new-shortcuts-actions/">iDownloadBlog: iOS 16.2 renames Set Wallpaper to Set Wallpaper Photo</a></li>
+          <li><a href="https://www.howtogeek.com/705985/how-to-automatically-change-wallpaper-on-iphone-and-ipad-using-shortcuts/">How-To Geek: change the wallpaper on a schedule with Shortcuts</a></li>
+          <li><a href="https://www.macworld.com/article/2378054/ios-18-macos-sequoia-icloud-keep-downloaded-option.html">Macworld: Keep Downloaded in iOS 18 Files</a></li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0a1030" />
+    <title>Daybreak: a sunrise that takes 377 mornings</title>
+    <meta name="description" content="A countdown lock screen for a UC transfer application. Gemini painted first light, then turned that same painting into night, blue hour and sunrise; Daybreak blends them by date into a new picture for every morning, so the sunrise takes 377 mornings." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://tomoki-2006.github.io/daybreak/" />
+    <meta property="og:title" content="Daybreak: a sunrise that takes 377 mornings" />
+    <meta property="og:description" content="A countdown lock screen for my UC transfer application: one scene painted by Gemini in four lights, blended by date into a new picture for every morning." />
+    <meta property="og:image" content="https://tomoki-2006.github.io/daybreak/cover/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Daybreak: a sunrise that takes 377 mornings" />
+    <meta name="twitter:description" content="A countdown lock screen for my UC transfer application. It changes every morning." />
+    <meta name="twitter:image" content="https://tomoki-2006.github.io/daybreak/cover/og.png" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <script type="module" crossorigin src="./assets/index-DhLAnqfP.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/config-BmUlUjgi.js">
+    <link rel="modulepreload" crossorigin href="./assets/draw-RCYFtzUq.js">
+    <link rel="modulepreload" crossorigin href="./assets/timelapse-C5UbdaYE.js">
+    <link rel="modulepreload" crossorigin href="./assets/site-BTsRiSAJ.js">
+    <link rel="stylesheet" crossorigin href="./assets/config-Dy9Zaycy.css">
+    <link rel="stylesheet" crossorigin href="./assets/index-D6tG-6cT.css">
+  </head>
+  <body class="landing">
+    <div class="sky" aria-hidden="true"></div>
+    <a class="skip" href="#story">Skip to the story</a>
+    <header class="bar">
+      <a class="mark" href="./index.html" aria-label="Daybreak home">Daybreak</a>
+      <nav aria-label="Site">
+        <a href="#set">Set it today</a>
+        <a href="./make.html">Make your own</a>
+        <a href="./gallery.html">Gallery</a>
+        <a href="./shortcut.html" id="navGuide">Daily update guide</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="heroTitle">
+        <div class="hero-head">
+          <h1 id="heroTitle" class="wordmark">Daybreak</h1>
+          <p class="tagline">A sunrise that takes 377 mornings</p>
+          <p class="hero-sub">A countdown lock screen for my UC transfer application. It changes every morning.</p>
+        </div>
+        <div class="hero-meta">
+          <p class="today-label" id="todayLabel" aria-live="polite">On November 18, 2026: <strong>377 mornings left</strong> until the UC application filing period closes November 30.</p>
+          <div class="hero-actions">
+            <button class="btn" id="replay" type="button" hidden>Replay the year</button>
+            <a class="btn primary" href="#set" id="heroSet">Set it today</a>
+          </div>
+        </div>
+        <figure class="phone-wrap">
+          <div class="phone" id="phone">
+            <canvas id="screen" width="603" height="1311" style="background-image: url(./hero-poster.jpg)" role="img" aria-label="Today’s lock screen: the mornings left until the UC transfer application, five milestones and a sky that brightens as the date nears."></canvas>
+            <canvas id="chrome" class="layer" width="603" height="1311" aria-hidden="true"></canvas>
+          </div>
+          <figcaption class="phone-cap" id="phoneCap" aria-hidden="true"></figcaption>
+          <p class="phone-note">Painted by Gemini. A new picture for every morning.</p>
+        </figure>
+      </section>
+
+      <section class="story" id="story" aria-labelledby="storyTitle">
+  <div class="story-main">
+  <h2 id="storyTitle">A deadline a year away</h2>
+  <p class="story-text">I’m in my first semester at a community college in California, studying math. In November 2027 I’ll apply to transfer to UCLA. That was <span data-start-count>377</span> mornings away when I made this: too far to feel real, too important to forget. I wanted a countdown that would still be right tomorrow morning, so I built one that changes every morning.</p>
+  </div>
+</section>
+
+      <section class="gemini" id="gemini" aria-labelledby="geminiTitle">
+  <h2 id="geminiTitle">How Gemini built it</h2>
+  <p class="lede">Gemini planned the milestones, painted the sky and set up a daily reminder. Daybreak, a small web app, blends the paintings by date and makes a new picture for every morning.</p>
+  <ol class="steps"><li class="step step-plan">
+    <div class="step-text">
+      <h3><span class="step-n">1</span> Plan</h3>
+      <p>I told Gemini my deadline and asked it to work backward to everything that has to be finished by when.</p>
+      <div class="quotes"><p>Two of its lines changed how the deadline reads for me:</p><blockquote class="gq">“Fall 2027 is the last term of grades UCLA sees before making admission decisions.”</blockquote><blockquote class="gq">“submit by Friday, November 19, 2027—before Thanksgiving week.”</blockquote></div>
+      <p class="lesson">A year-away deadline starts now. UCLA sees only three semesters and a summer of my grades before it decides, and my first milestone was 27 mornings out.</p>
+      <p>Then I asked for five dated milestones and one daily habit. Its first five ended with the deadline itself and left February to August empty, so I asked it to drop that line and add a spring milestone. It came back with “Finish Calc 2”.</p>
+      <p>Its plan also told me to submit by November 19, before Thanksgiving week, so the last line of my lock screen says “Due · aim for Nov 19”.</p>
+      <p>The habit line tells me to solve a problem before checking my phone, and it lives on the one screen I see before I unlock it.</p>
+      <a class="chat-link" href="https://gemini.google.com/share/b684cc23b61e" target="_blank" rel="noopener">Read the whole chat with Gemini</a>
+    </div>
+    <div class="step-art">
+      <figure class="prompt">
+        <figcaption>My prompt</figcaption>
+        <blockquote>I&#39;m a first-year math major at a community college in California, taking Calculus 1 this semester. My goal is to transfer to UCLA for Fall 2028 as a mathematics major. The UC transfer application is due November 30, 2027. Today is November 18, 2026.</blockquote>
+        <details><summary>Show the full prompt</summary><pre>I&#39;m a first-year math major at a community college in California, taking Calculus 1 this semester. My goal is to transfer to UCLA for Fall 2028 as a mathematics major. The UC transfer application is due November 30, 2027. Today is November 18, 2026.
+
+Work backward from that deadline and make me a step-by-step plan. Tell me what has to be finished by when (courses, GPA, counselor check-ins, the application itself, the Personal Insight Questions) and why each step matters. Keep it realistic for a full-time student.</pre></details>
+      </figure>
+      <figure class="answer first-answer">
+        <figcaption>Gemini’s first five</figcaption>
+        <ol class="plan-lines"><li><time datetime="2026-12-15">Dec 15</time><span>Finish Calc 1</span></li><li><time datetime="2027-02-15">Feb 15</time><span>Counselor Ed Plan</span></li><li><time datetime="2027-08-01">Aug 1</time><span>UC App opens</span></li><li><time datetime="2027-11-01">Nov 1</time><span>PIQ drafts due</span></li><li class="dropped"><time datetime="2027-11-30">Nov 30</time><span>UC App deadline</span></li></ol>
+        <blockquote class="mine">Almost. Two fixes: the last line is the deadline itself, and the countdown already counts down to that, so drop it. And nothing happens between February and August, so put a spring milestone in that gap instead. Keep exactly 5 milestones in date order, the same format and the habit line, no other text.</blockquote>
+      </figure>
+      <figure class="answer">
+        <figcaption>Gemini’s final six lines, now on the lock screen</figcaption>
+        <ol class="plan-lines"><li><time datetime="2026-12-15">Dec 15</time><span>Finish Calc 1</span></li><li><time datetime="2027-02-15">Feb 15</time><span>Counselor Ed Plan</span></li><li><time datetime="2027-05-21">May 21</time><span>Finish Calc 2</span></li><li><time datetime="2027-08-01">Aug 1</time><span>UC App opens</span></li><li><time datetime="2027-11-01">Nov 1</time><span>PIQ drafts due</span></li></ol>
+        <p class="plan-habit">habit: Solve one calculus problem before checking phone.</p>
+      </figure>
+      <figure class="in-gemini"><figcaption>See it in Gemini</figcaption><ul class="shots"><li><a class="shot-link" href="./gemini/shots/01-plan-prompt-and-answer.jpg" data-caption="My prompt and the start of Gemini’s plan"><img src="./gemini/shots/thumb/01-plan-prompt-and-answer.jpg" alt="Screenshot in Gemini: My prompt and the start of Gemini’s plan" width="480" height="360" loading="lazy" decoding="async" /><span>My prompt and the start of Gemini’s plan</span></a></li><li><a class="shot-link" href="./gemini/shots/01b-plan-roadmap.jpg" data-caption="Gemini’s backward roadmap"><img src="./gemini/shots/thumb/01b-plan-roadmap.jpg" alt="Screenshot in Gemini: Gemini’s backward roadmap" width="480" height="360" loading="lazy" decoding="async" /><span>Gemini’s backward roadmap</span></a></li><li><a class="shot-link" href="./gemini/shots/02-milestones-with-correction.jpg" data-caption="Five milestones, then one correction"><img src="./gemini/shots/thumb/02-milestones-with-correction.jpg" alt="Screenshot in Gemini: Five milestones, then one correction" width="480" height="360" loading="lazy" decoding="async" /><span>Five milestones, then one correction</span></a></li><li><a class="shot-link" href="./gemini/shots/02b-milestones-final-six-lines.jpg" data-caption="The final six lines"><img src="./gemini/shots/thumb/02b-milestones-final-six-lines.jpg" alt="Screenshot in Gemini: The final six lines" width="480" height="360" loading="lazy" decoding="async" /><span>The final six lines</span></a></li></ul></figure>
+    </div>
+  </li>
+<li class="step step-paint">
+    <div class="step-text">
+      <h3><span class="step-n">2</span> Paint</h3>
+      <p>Gemini’s draft was beautiful but frozen: it would say “377 mornings left” forever and its checkboxes would never get checked. So the job was split. Gemini painted first light, then turned that same painting into night, blue hour and sunrise, so every ridge lines up. Daybreak blends the two nearest paintings for each date, so the sunrise takes exactly as long as the deadline is away, here a year, and makes a new picture for every morning with that day’s numbers.</p>
+      <p class="brief-line">Before each picture, Gemini wrote its own long brief for its image model. For the first-light painting, the base of all four: “The top third of the frame is a peaceful, dark twilight sky”, “keeping it open and uncluttered”.</p>
+      <details class="briefs"><summary>Read Gemini’s own brief for each picture</summary>
+        <p class="briefs-note">Copied as Gemini wrote them. &lt;IMAGE_0&gt; and &lt;IMAGE_1&gt; are its names for the pictures it was given to work from.</p>
+        <h4>Draft lock screen (from the attached mockup)</h4><div class="brief">A tall 9:19.5 smartphone lock screen wallpaper (incorporating the UI style from &lt;IMAGE_0&gt;) at twilight, just before sunrise, featuring layered silhouetted hills with a tiny, distant university campus on the horizon and a countdown milestone schedule overlaid in the middle.
+
+The scene is a tranquil pre-dawn landscape of Southern California, with rolling hills and distant mountain ridges fading in layered deep indigo, navy, and twilight violet. Behind the furthest hills, the horizon glows with a very faint, soft, warm amber-and-orange pre-dawn light. Barely visible on the distant valley floor, a tiny university campus is silhouetted, with distinct dual square towers (like UCLA’s Royce Hall) and scattered palm trees catching the faint early light, with occasional tiny speckles of campus lights. The top third of the screen is an empty, dark night-sky area (for a phone’s clock) with faint fading stars and a sliver of a crescent moon. The bottom third is kept clear and natural.
+
+Overlaid elegantly in the center and middle-left is the user-provided milestone plan, utilizing modern, sleek typography with ample breathing room:
+At the top of the content block, a large, stylized, warm-white serif &quot;377&quot; with lowercase &quot;mornings left&quot; directly below it in a small, light sans-serif font. Underneath, there is a smaller italicized subheader: &quot;UC transfer app · Nov 30, 2027&quot;.
+
+A vertical timeline connecting a series of milestone dates and labels sits underneath, with a thin connecting line and dots on the left:
+- ⊙ Dec 15 — Finish Calc 1 (A glowing warm orange/cream accent on the date, with an orange &quot;next&quot; pill-shaped badge next to it)
+- ◯ Feb 15 — Counselor Ed Plan (thin, translucent white text and circle)
+- ◯ May 21 — Finish Calc 2 (thin, translucent white text and circle)
+- ◯ Aug 1 — UC App opens (thin, translucent white text and circle)
+- ◯ Nov 1 — PIQ drafts due (thin, translucent white text and circle)
+
+At the bottom of this middle block, in tiny, elegant lowercase italic text: &quot;habit: solve one calculus problem before checking phone.&quot;
+
+The entire look is calm, premium, and minimal, feeling like a functional daily motivator.</div>
+        <h4>First light (the base painting)</h4><div class="brief">A vertical 9:16 photograph of the landscape from &lt;IMAGE_0&gt; with absolutely no text, UI, overlays, or graphics of any kind—only natural scenery at first light, just before sunrise.
+
+The composition captures a deep, layered Southern California valley seen from an elevated perspective just before dawn. In the lower third of the frame, within the middle 80% of the screen&#39;s width, the tiny, faraway silhouette of a university campus (featuring two iconic square towers and clusters of palm trees) sits on the Horizon. The campus is faintly visible against a soft, subtle glow on the horizon, where the dark hills meet the sky with a gentle warm amber, peach, and soft violet gradient from the first light of dawn. Tiny, warm ambient lights and distant glowing speckles are visible across the campus and valley floor. Below, the foreground of rolling mountain ridges and layered hills cascading down is silhouetted in deep, rich indigo and dark navy.
+
+The middle 40% of the image is &quot;quiet&quot; and understated, made of dark, smooth hills and fading natural gradient silhouettes to provide a calm background for user-generated overlays.
+
+The top third of the frame is a peaceful, dark twilight sky transitioning from deep midnight blue to dark indigo at the very top, where a few faint, fading stars are still visible (no moon). This upper area is entirely free of high-contrast elements, keeping it open and uncluttered.
+
+The image is completely natural, showcasing a raw dawn landscape with absolutely no digital elements, time/date stamps, timelines, dots, UI markers, or text of any kind. Camera and position are identical to the original mock-up, with rich, soft ambient light and a cinematic, premium photograph quality.</div>
+        <h4>Night (edit of the base)</h4><div class="brief">An edit of the illustrated landscape in &lt;IMAGE_0&gt;, maintaining the exact same composition, camera angle, and objects (the layered Southern California hills and the distant UCLA-style twin-tower university campus with palm trees), but changing the time of day and lighting to deep night with no moon.
+
+The sky is a dark, velvety expanse of deep navy, indigo, and midnight blue, sparsely dotted with faint, tiny twinkling stars. There is no moon. The warm dawn glow on the horizon from &lt;IMAGE_0&gt; is completely gone, replaced by the natural, uniform dark gradients of deep night.
+
+The layered hills in the foreground and midground are almost completely in dark silhouette, rendered in shades of black, charcoal, and deep indigo, with only the faint natural contrast of their ridges visible against the dark night sky.
+
+On the distant horizon, the tiny university campus and surrounding palm trees are dark silhouettes, exactly as in &lt;IMAGE_0&gt;, but now dotted only with a few faint, tiny warm pinpricks of light (from a few windows and scattered campus pathways).
+
+The composition remains identical to &lt;IMAGE_0&gt;, keeping the top and middle quiet and empty, and preserving the 9:16 vertical framing with all important landscape features in the middle 80%. No text is added.</div>
+        <h4>Blue hour (edit of the base)</h4><div class="brief">An edit of the first-light base &lt;IMAGE_0&gt;, maintaining the exact same camera angle, framing, composition, and objects (with absolutely no text), but changing the time of day and lighting to blue hour.
+
+The entire scene has been transformed with the cool, deeply saturated lighting of twilight’s &quot;blue hour&quot;. The sky at the top is a deep, rich indigo and midnight blue, which transitions smoothly toward the horizon into a very faint, cool teal and twilight blue glow, completely replacing the warm orange and amber glow of the original. The faint star points at the top are still barely visible.
+
+The layered, silhouetted hills from &lt;IMAGE_0&gt; are preserved in their exact positions and shapes, now colored in deep dark indigo and Prussian blue. The tiny distant university campus on the horizon, with its iconic two square towers and palm trees, remains in the exact same spot, with a few faint, warm pinpoints of lights still visible among its silhouette. There is no moon, no bright sun, and the landscape is cast in the moody, natural cool-toned light of early morning twilight just before dawn begins. No text or overlays have been added.</div>
+        <h4>Sunrise (edit of the base)</h4><div class="brief">A vertical (9:16) sunset/sunrise edit of &lt;IMAGE_0&gt;, modifying only the lighting and the sun&#39;s appearance to a sunrise while keeping the exact same composition, camera angle, and objects. No text, watermark, or UI overlays are to be added.
+
+The image remains a photographic lock-screen-friendly natural landscape, maintaining the exact same alignment and scale of the layered hills, mountains, and the distant UCLA-inspired campus with its two square towers and palm trees.
+
+The lighting has transitioned to sunrise:
+- The small glowing disc of the rising sun is just beginning to appear directly behind the two central campus towers, creating a vibrant, luminous golden highlight and a soft solar glow that catches the atmosphere right on the horizon.
+- The warm golden-orange sunrise light is now hitting the landscape, casting a brilliant rim-lighting (backlit golden-hour glow) along the ridges and edges of the layered hills and the campus silhouette, highlighting their forms with rich warm gold and amber, while the valleys and nearer hills remain in deep, dark, warm-shadowed indigo and brown.
+- To keep a white lockscreen clock readable, the gradient on the sky is tightly controlled: Only the low horizon area (bottom-middle) around the sun and hills has a bright, warm amber and golden glow. Above that, the sky transitions rapidly from a warm dawn orange into twilight purple, and then to a calm, medium-dark navy and indigo blue in the top half and third, still featuring very faint, sparse stars as the night fully fades.
+
+Do not add any text, icons, or UI overlays of any kind. Keep everything exactly aligned with &lt;IMAGE_0&gt;.</div>
+        <h4>Landscape, first light (the landscape base)</h4><div class="brief">A wide landscape digital illustration for a laptop wallpaper (16:10 aspect ratio) in the exact same minimalist, premium 2D layered style, visual aesthetic, and rich first-light palette as &lt;IMAGE_0&gt;.
+
+The composition is adjusted for a wide landscape view:
+- The scene is a vast pre-dawn panorama of layered, receding Southern California hills in deep navy, indigo, and twilight violet, under a dark, expansive night sky that gradients down from midnight blue at the top (with faint, scattered stars) to a soft, warm amber-and-peach dawn glow along the horizon.
+- The university campus (featuring the small, distant silhouette of UCLA-style twin square towers and clusters of palm trees, as seen in &lt;IMAGE_0&gt;) and the concentrated warm dawn glow are positioned on the horizon just right of center (roughly 60% to 75% across the width). Tiny, warm pinpoints of ambient light are visible on and around the distant campus.
+- The entire left 40% of the image is kept calm, open, and darker, featuring only the vast, deep twilight sky and the soft, rolling, dark silhouettes of the receding hills, completely free of busy details, buildings, or clutter, providing an unobtrusive space for desktop icons.
+- Deep, cascading hill silhouettes fill the lower third, stretching across the base of the frame with natural layered depth, exactly matching the mood and aesthetic of &lt;IMAGE_0&gt;.
+- Completely free of any text, interfaces, or overlays. Calm, vast, premium, and minimal.</div>
+        <h4>Landscape night</h4><div class="brief">An image edited from the 16:10 landscape first-light painting &lt;IMAGE_0&gt;, maintaining the exact same composition, mountain/hill silhouettes, university campus on the right, and camera framing, but entirely repainting the lighting to deep night.
+
+All natural lighting is changed to a dark nighttime state with absolutely no glow, orange, or warmth on the horizon. The entire sky is a consistent, deep, dark navy and indigo, speckled with only a few faint, sparse stars. The layered hills on the left and right are almost complete, dark silhouettes, and there is no moon. On the small, distant university campus, only a few tiny, faint, warm pinpoints of window light are visible, with very subtle ambient glimmers from the small clusters.
+
+The image has no text, UI elements, or moon, and is the darkest variation of this exact scene. It maintains a calm, quiet aesthetic with the left 40% perfectly dark and open.</div>
+        <h4>Landscape blue hour</h4><div class="brief">This is an edit of the wide landscape first-light painting &lt;IMAGE_0&gt;, maintaining the exact same landscape framing, hill contours, university campus, and camera position, but repainted with a much darker blue hour twilight that is significantly closer in brightness to the night version (&lt;IMAGE_1&gt;).
+
+- The lighting and sky are now a very deep, dark blue and indigo everywhere, making the entire image much darker overall and closer to deep night, yet retaining a rich cool-blue undertone rather than black.
+- On the right-middle horizon, behind the distant campus, there is only a very faint, narrow, and heavily muted teal/deep cyan band low against the skyline. It is the only cool glow in the scene, with absolutely no warm orange, amber, or gold.
+- The rest of the sky is a dark indigo and midnight blue, with sparse, barely visible stars and no moon.
+- The layered hills are almost entirely in dark silhouette, only just catching the faintest blue-toned ambient light on the uppermost ridge lines.
+- The campus itself is deeply shadowed, showing only a few tiny, faint, warm glimmers of light in its windows.
+- The left 40% of the image remains an incredibly dark, open, and calm expanse of layered ridges and deep twilight. No text, no moon, and no people. The composition remains completely identical to &lt;IMAGE_0&gt;, with only the lighting level and tone updated.</div>
+        <h4>Cover painting</h4><div class="brief">An edit of &lt;IMAGE_0&gt;. Keep the exact same flat, layered artistic style, composition, camera perspective, palette, objects, and framing, but change the position of the sun&#39;s disc.
+
+The sun&#39;s disc should be exactly half-risen directly between the two main square towers of the campus on the right (about 80% across the picture), peeking up precisely from the gap/valley between the twin towers, rather than to the right of the right-hand tower.
+
+Warm golden light and sunrise glow must emanate outward, shining through and exactly between the two square towers, with the sun&#39;s circular edge centered perfectly in the space between the twin structures.
+
+All other elements remain exactly identical: the prominent campus, its towers (one-eighth of picture height) with silhouettes of palm trees on the right, the deep night with dark navy sky and faint stars on the left 60%, the dark layered hills filling the lower quarter, the smooth natural transition of light from dark night on the left to warm gold on the right, and the absence of any text, moon, or people. Use &lt;IMAGE_0&gt; as the precise reference for the landscape and camera angle.</div>
+      </details>
+    </div>
+    <div class="paint-stage"><figure class="draft"><img class="" src="./gemini/draft.png" alt="Gemini’s first draft: a complete lock screen with the count, the milestones and the habit painted in" loading="lazy" decoding="async" data-near /><figcaption>Gemini’s draft, painted whole from a mockup</figcaption></figure><div class="paint-main">
+        <figure class="paintings"><ol><li data-phase="night"><img class="" src="./art/uc/portrait/night.jpg" alt="Night painting" loading="lazy" decoding="async" data-near /><span class="pname">Night</span><span class="pw" aria-hidden="true"><i></i></span></li><li data-phase="blue"><img class="" src="./art/uc/portrait/blue.jpg" alt="Blue hour painting" loading="lazy" decoding="async" data-near /><span class="pname">Blue hour</span><span class="pw" aria-hidden="true"><i></i></span></li><li data-phase="first"><img class="" src="./art/uc/portrait/first.jpg" alt="First light painting" loading="lazy" decoding="async" data-near /><span class="pname">First light</span><span class="pw" aria-hidden="true"><i></i></span></li><li data-phase="sunrise"><img class="" src="./art/uc/portrait/sunrise.jpg" alt="Sunrise painting" loading="lazy" decoding="async" data-near /><span class="pname">Sunrise</span><span class="pw" aria-hidden="true"><i></i></span></li></ol><figcaption>One scene, four lights, as Gemini painted them</figcaption></figure>
+        <div class="year" id="yearCtl" hidden>
+          <label for="yearSlider">Drag through the year</label>
+          <input type="range" id="yearSlider" min="0" max="377" step="1" value="0" />
+        </div>
+        <figure class="paintings-wide"><ol><li><img src="./art/uc/landscape/thumb/night.jpg" alt="Night painting, landscape" width="640" height="398" loading="lazy" decoding="async" /><span class="pname">Night</span></li><li><img src="./art/uc/landscape/thumb/blue.jpg" alt="Blue hour painting, landscape" width="640" height="398" loading="lazy" decoding="async" /><span class="pname">Blue hour</span></li><li><img src="./art/uc/landscape/thumb/first.jpg" alt="First light painting, landscape" width="640" height="398" loading="lazy" decoding="async" /><span class="pname">First light</span></li><li><img src="./art/uc/landscape/thumb/sunrise.jpg" alt="Sunrise painting, landscape" width="640" height="398" loading="lazy" decoding="async" /><span class="pname">Sunrise</span></li></ol><figcaption>The same four lights, painted again in landscape for laptops</figcaption></figure>
+      </div>
+      <figure class="blend" id="blendFig" hidden>
+        <canvas id="blendView" width="460" height="1000" role="img" aria-label="Gemini’s paintings blended by Daybreak for the chosen morning"></canvas>
+        <figcaption id="yearOut"></figcaption>
+      </figure></div>
+    <figure class="in-gemini"><figcaption>See it in Gemini</figcaption><ul class="shots"><li><a class="shot-link" href="./gemini/shots/03-draft-lock-screen-in-chat.jpg" data-caption="My mockup and Gemini’s draft"><img src="./gemini/shots/thumb/03-draft-lock-screen-in-chat.jpg" alt="Screenshot in Gemini: My mockup and Gemini’s draft" width="480" height="360" loading="lazy" decoding="async" /><span>My mockup and Gemini’s draft</span></a></li><li><a class="shot-link" href="./gemini/shots/04-four-paintings-in-chat.jpg" data-caption="First light, then night, blue hour and sunrise as edits of it"><img src="./gemini/shots/thumb/04-four-paintings-in-chat.jpg" alt="Screenshot in Gemini: First light, then night, blue hour and sunrise as edits of it" width="480" height="360" loading="lazy" decoding="async" /><span>First light, then night, blue hour and sunrise as edits of it</span></a></li><li><a class="shot-link" href="./gemini/shots/06-cover-painting-in-chat.jpg" data-caption="The cover painting, with one correction"><img src="./gemini/shots/thumb/06-cover-painting-in-chat.jpg" alt="Screenshot in Gemini: The cover painting, with one correction" width="480" height="360" loading="lazy" decoding="async" /><span>The cover painting, with one correction</span></a></li><li><a class="shot-link" href="./gemini/shots/07-landscapes-in-chat.jpg" data-caption="Night, blue hour and sunrise for the laptop"><img src="./gemini/shots/thumb/07-landscapes-in-chat.jpg" alt="Screenshot in Gemini: Night, blue hour and sunrise for the laptop" width="480" height="360" loading="lazy" decoding="async" /><span>Night, blue hour and sunrise for the laptop</span></a></li></ul></figure>
+  </li>
+<li class="step step-remind">
+    <div class="step-text">
+      <h3><span class="step-n">3</span> Remind</h3>
+      <p>I asked Gemini to check the countdown every morning. It set up one daily schedule, “UCLA transfer daily countdown”, at 7:00 until November 30, 2027. It is set to send the mornings left, my next milestone, anything due today or tomorrow, and one small step, in under 40 words.</p>
+      
+      <p class="small-note">Gemini notes that scheduled actions run at about the set time and stop if a usage limit is reached.</p>
+    </div>
+    <div class="step-art">
+      <figure class="prompt">
+        <figcaption>My prompt</figcaption>
+        <blockquote>Every day at 7:00 AM until November 30, 2027, check my UC transfer countdown in this chat and send me: how many mornings are left until November 30, 2027, my next milestone from the plan above, any milestone due today or tomorrow, and one small step for today. Keep it under 40 words.</blockquote>
+      </figure>
+      <figure class="answer">
+        <figcaption>Gemini’s reply</figcaption>
+        <blockquote class="reply">I&#39;ll have your UCLA transfer daily countdown ready for you by 7:00 AM every day until November 30, 2027.
+
+I&#39;ll send you a notification in the mobile app at your scheduled time. You can view or edit your scheduled actions at any time in the left side navigation bar under &quot;Scheduled&quot;.</blockquote>
+      </figure>
+      
+      <figure class="in-gemini"><figcaption>See it in Gemini</figcaption><ul class="shots"><li><a class="shot-link" href="./gemini/shots/05-reminder-confirmation.jpg" data-caption="The daily schedule, as Gemini confirmed it"><img src="./gemini/shots/thumb/05-reminder-confirmation.jpg" alt="Screenshot in Gemini: The daily schedule, as Gemini confirmed it" width="480" height="360" loading="lazy" decoding="async" /><span>The daily schedule, as Gemini confirmed it</span></a></li></ul></figure>
+    </div>
+  </li></ol>
+</section>
+
+      <section class="set" id="set" aria-labelledby="setTitle">
+        <h2 id="setTitle">Set it today</h2>
+        <p>Today’s picture, made at your screen’s exact size.</p>
+        <div class="set-row">
+          <button class="btn primary big dl" id="getToday" type="button"><span class="dl-main" id="dlMain">Download today’s lock screen</span><span class="dl-size" id="dlSize"></span></button>
+          <label class="other"><span>Another screen</span> <select id="otherSize" aria-label="Another screen size"></select></label>
+        </div>
+        <p class="set-fits" id="setFits" hidden></p>
+        <p class="set-how" id="setHow">On iPhone, save the picture to Photos, open it, then tap Share › Use as Wallpaper and choose Lock Screen.</p>
+        
+        <p class="set-status" id="setStatus" aria-live="polite"></p>
+        <div class="qr" id="qrBox" hidden>
+          <div class="qr-code" id="qr" role="img" aria-label="QR code that opens this page"></div>
+          <p>On a computer? Scan this with your phone’s camera to open this page there.</p>
+        </div>
+      </section>
+
+      <section class="auto" id="auto" aria-labelledby="autoTitle">
+        <h2 id="autoTitle">Let it change itself</h2>
+        <p>This countdown has one picture online for every morning, named by its date. A Shortcut with four actions fetches today’s and sets it. Setting it up takes about five minutes, once.</p>
+        
+        <ol class="recipe">
+          <li><b>Date</b> <span>Current Date</span></li>
+          <li><b>Format Date</b> <span>Date Format: Custom, <code>yyyy-MM-dd</code></span></li>
+          <li><b>Get Contents of URL</b>
+            <span class="url"><span id="urlBase">https://tomoki-2006.github.io/daybreak/i/uc-transfer-app/</span><span class="tok">Formatted Date</span>.jpg</span>
+            <button class="btn small" id="copyUrl" type="button">Copy the address</button>
+          </li>
+          <li><b>Set Wallpaper</b> <span>Lock Screen, with Show Preview off</span></li>
+        </ol>
+        <div class="when">
+          <h3>Run it each morning</h3>
+          <p><b>iOS 27:</b> after building the shortcut, tap Edit › Automation and add a Time of Day trigger (for example 6:00, daily). Then Edit › Info › Privacy and turn on Allow Running When Locked.</p>
+          <p><b>iOS 26:</b> Shortcuts › Automation › + › Time of Day (6:00, Daily), add the four actions, choose Run Immediately and turn Notify When Run off.</p>
+          <p class="tip">Turn off Depth Effect and the spatial scene for this Lock Screen. Keep the clock small: the compact clock on iOS 27, or drag the clock’s handle back up on iOS 26.</p>
+        </div>
+        <p class="tip">The online pictures are 1290 × 2796, the size of the larger iPhones; iOS scales them to fit other models. A picture from Set it today is drawn at your screen’s exact size.</p>
+        <p><a class="more" href="./shortcut.html" id="guideLink">Read the full guide, with an offline version for iCloud Drive and notes for Android, Mac and Windows</a></p>
+      </section>
+
+      <section class="make band" id="make" aria-labelledby="makeTitle">
+  <div class="band-text">
+  <h2 id="makeTitle">Make your own</h2>
+  <p>Pick a deadline, five milestones and a style, then download today’s picture or a set of daily pictures. Or start from one of 100 ready-made countdowns, from bar exams to marathons.</p>
+  <div class="make-links">
+    <a class="btn primary" href="./make.html">Open the builder</a>
+    <a class="btn" href="./gallery.html">Browse 100 countdowns</a>
+  </div>
+  <p class="same-deadline">Applying to UC for fall 2028 too? <a href="./make.html#c=eyJzbHVnIjoidWMtdHJhbnNmZXItYXBwIiwidGl0bGUiOiJVQyB0cmFuc2ZlciBhcHAiLCJkZWFkbGluZSI6IjIwMjctMTEtMzAiLCJzdGFydCI6IjIwMjYtMTEtMTgiLCJ1bml0IjoibW9ybmluZ3MiLCJ0aGVtZSI6ImRheWJyZWFrIiwiZGV2aWNlIjoiaXBob25lLTYuMyIsIm1pbGVzdG9uZXMiOlt7ImRhdGUiOiIyMDI2LTEyLTE1IiwibGFiZWwiOiJGaW5pc2ggQ2FsYyAxIn0seyJkYXRlIjoiMjAyNy0wMi0xNSIsImxhYmVsIjoiQ291bnNlbG9yIEVkIFBsYW4ifSx7ImRhdGUiOiIyMDI3LTA1LTIxIiwibGFiZWwiOiJGaW5pc2ggQ2FsYyAyIn0seyJkYXRlIjoiMjAyNy0wOC0wMSIsImxhYmVsIjoiVUMgQXBwIG9wZW5zIn0seyJkYXRlIjoiMjAyNy0xMS0wMSIsImxhYmVsIjoiUElRIGRyYWZ0cyBkdWUifV0sImFydCI6InVjIiwiZGVhZGxpbmVMYWJlbCI6IkFwcGxpY2F0aW9uIGR1ZSIsImFpbURhdGUiOiIyMDI3LTExLTE5IiwiZG9uZU5vdGUiOiJOZXh0OiBncmFkZSB1cGRhdGUgYnkgSmFuIDMxIiwiaGFiaXQiOiJTb2x2ZSBvbmUgY2FsY3VsdXMgcHJvYmxlbSBiZWZvcmUgY2hlY2tpbmcgcGhvbmUuIn0" id="sameLink">This exact countdown is one tap away.</a></p>
+  </div>
+  <div class="band-art"><img src="./art/uc/cover/band.jpg" alt="" width="1920" height="1288" loading="lazy" decoding="async" /></div>
+</section>
+    </main>
+
+    <footer class="credits">
+      <p>Plan, paintings and daily reminder by Google Gemini.</p><p>Layout and daily rendering by Daybreak, a small web app.</p>
+    </footer>
+
+  </body>
+</html>

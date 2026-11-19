@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0a0b14" />
+    <meta name="description" content="100 Daybreak countdown lock screens, each shown as it looks this morning." />
+    <title>Daybreak Gallery</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://tomoki-2006.github.io/daybreak/gallery.html" />
+    <meta property="og:title" content="Daybreak Gallery — 100 countdown lock screens" />
+    <meta property="og:description" content="Exams, races, launches and life events, each shown as its lock screen looks this morning." />
+    <meta property="og:image" content="https://tomoki-2006.github.io/daybreak/cover/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Daybreak Gallery — 100 countdown lock screens" />
+    <meta name="twitter:description" content="Exams, races, launches and life events, each shown as its lock screen looks this morning." />
+    <meta name="twitter:image" content="https://tomoki-2006.github.io/daybreak/cover/og.png" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <script type="module" crossorigin src="./assets/gallery-BSNwlJVz.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/config-BmUlUjgi.js">
+    <link rel="modulepreload" crossorigin href="./assets/draw-RCYFtzUq.js">
+    <link rel="stylesheet" crossorigin href="./assets/config-Dy9Zaycy.css">
+    <link rel="stylesheet" crossorigin href="./assets/style-Dhhgq6KA.css">
+  </head>
+  <body>
+    <header class="top">
+      <div class="brand"><a class="home" href="./index.html"><h1>Daybreak</h1></a><span>a lock screen that changes every morning</span></div>
+      <nav>
+        <a href="./index.html">Story</a>
+        <a href="./make.html">Make</a>
+        <a href="./gallery.html" aria-current="page">Gallery</a>
+        <a href="./shortcut.html">Daily update</a>
+      </nav>
+    </header>
+    <main class="page">
+      <h2>Gallery</h2>
+      <p class="lede" id="lede">Countdowns for exams, races, launches and life events, each shown as it looks this morning. Open any one in the builder to make it yours.</p>
+      <section class="gal-featured" id="secFeatured" aria-labelledby="featTitle">
+        <h3 class="sec-title" id="featTitle">Twelve to start from</h3>
+        <p class="sec-note">Every style and every stage of the light, starting with the countdown Gemini painted for my UC transfer application.</p>
+        <div class="grid feat-grid" id="gridFeatured"></div>
+      </section>
+      <section class="gal-all" id="secAll" aria-labelledby="allTitle">
+        <h3 class="sec-title" id="allTitle">All 100</h3>
+        <div class="filters" role="group" aria-label="Filter all countdowns">
+          <label><span>Theme</span><select id="fTheme"><option value="">All themes</option></select></label>
+          <label><span>Screen</span><select id="fKind"><option value="phone">Phones &amp; tablets</option><option value="computer">Computers</option><option value="">Everything</option></select></label>
+          <label><span>Device</span><select id="fDevice"><option value="">All devices</option></select></label>
+          <span class="count" id="count" aria-live="polite"></span>
+        </div>
+        <section class="gal-section" id="secPhone"><h4 class="sub-title">Phones and tablets</h4><div class="grid" id="gridPhone"></div></section>
+        <section class="gal-section" id="secComputer"><h4 class="sub-title">Computers</h4><div class="grid landscape-grid" id="gridComputer"></div></section>
+        <p class="empty" id="empty" hidden>No countdowns match these filters.</p>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+function e(){return`https://tomoki-2006.github.io/daybreak/`}var t=e();function n(e){return t||(e&&/^https?:$/.test(e.protocol)?e.origin+e.pathname.replace(/[^/]*$/,``):``)}function r(e,t,n){return`${e}i/${t}/${n}.jpg`}export{n,r as t};

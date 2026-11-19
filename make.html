@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0a0b14" />
+    <title>Daybreak: make your countdown lock screen</title>
+    <meta name="description" content="Make a countdown lock screen for any deadline: mornings left, five milestones, and a sky that brightens from night to sunrise as the date nears. Download today's picture or a set of daily pictures." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://tomoki-2006.github.io/daybreak/make.html" />
+    <meta property="og:title" content="Daybreak: make your countdown lock screen" />
+    <meta property="og:description" content="Count down the mornings to any deadline. Milestones check off and the sky brightens from night to sunrise. Gemini plans the steps." />
+    <meta property="og:image" content="https://tomoki-2006.github.io/daybreak/cover/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Daybreak: make your countdown lock screen" />
+    <meta name="twitter:description" content="Count down the mornings to any deadline. Milestones check off and the sky brightens from night to sunrise." />
+    <meta name="twitter:image" content="https://tomoki-2006.github.io/daybreak/cover/og.png" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <script type="module" crossorigin src="./assets/make-kuxjYbDJ.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/config-BmUlUjgi.js">
+    <link rel="modulepreload" crossorigin href="./assets/draw-RCYFtzUq.js">
+    <link rel="modulepreload" crossorigin href="./assets/timelapse-C5UbdaYE.js">
+    <link rel="stylesheet" crossorigin href="./assets/config-Dy9Zaycy.css">
+    <link rel="stylesheet" crossorigin href="./assets/style-Dhhgq6KA.css">
+  </head>
+  <body>
+    <header class="top">
+      <div class="brand"><a class="home" href="./index.html"><h1>Daybreak</h1></a><span>a lock screen that changes every morning</span></div>
+      <nav>
+        <a href="./index.html">Story</a>
+        <a href="./make.html" aria-current="page">Make</a>
+        <a href="./gallery.html">Gallery</a>
+        <a href="./shortcut.html" id="navGuide">Daily update</a>
+      </nav>
+    </header>
+
+    <main class="app">
+      <!-- Hero: headline, subhead, bullets, Play. On mobile the stage (preview + download) follows directly. -->
+      <section class="hero" id="hero">
+        <h2 id="heroTitle">Every morning, your lock screen gets closer.</h2>
+        <p class="hero-sub" id="heroSub">Pick a deadline, and Daybreak counts down the mornings, checks off milestones, and brightens the sky from night to sunrise.</p>
+        <ul class="hero-points" id="heroPoints">
+          <li><span class="dot"></span>Clear space up top, so the clock fits.</li>
+          <li><span class="dot"></span>Five short milestones, in order, checked off as their dates pass.</li>
+          <li><span class="dot"></span>A new picture for every morning, set by a Shortcut.</li>
+        </ul>
+        <div class="hero-actions">
+          <button type="button" class="btn primary" id="play" aria-label="Play the countdown from the first morning to the deadline">▶ Watch every morning in 9 seconds</button>
+          <button type="button" class="btn" id="backToday" hidden>Back to today</button>
+          <a class="btn" href="#form" id="makeYours">Make yours ↓</a>
+        </div>
+      </section>
+
+      <section class="stage" id="stage">
+        <div class="stage-head">
+          <div class="daycap" id="daycap"></div>
+          <div class="toggles">
+            <label class="toggle"><input type="checkbox" id="chrome" checked /> Clock overlay</label>
+            <label class="toggle"><input type="checkbox" id="chromeFull" /> Widgets &amp; notifications</label>
+            <label class="toggle"><input type="checkbox" id="zones" /> Safe zones</label>
+          </div>
+        </div>
+
+        <div class="device" id="device-frame">
+          <div class="screen" id="screen">
+            <canvas id="canvas"></canvas>
+            <canvas class="layer" id="overlay"></canvas>
+          </div>
+        </div>
+
+        <div class="slider">
+          <input type="range" id="day" min="0" max="1" step="1" aria-label="Preview day" />
+          <div class="ticks"><span id="tickStart"></span><button type="button" class="btn small" id="todayBtn">Today</button><span id="tickEnd"></span></div>
+        </div>
+
+        <div class="actions">
+          <button type="button" class="btn primary" id="dlToday">Download today’s PNG</button>
+          <button type="button" class="btn" id="dlZip" aria-expanded="false" aria-controls="zipPanel">Download days (ZIP)…</button>
+          <button type="button" class="btn" id="share">Copy share link</button>
+        </div>
+        <div class="zip-panel" id="zipPanel" hidden>
+          <p class="zip-head">One JPEG per morning, named by date (<span id="zipExample">2026-11-18.jpg</span>), plus the days after the deadline.</p>
+          <div class="zip-options" id="zipOptions" role="radiogroup" aria-label="How many days"></div>
+          <div class="zip-actions">
+            <button type="button" class="btn primary small" id="zipGo">Download ZIP</button>
+            <button type="button" class="btn small" id="zipCancel">Cancel</button>
+          </div>
+        </div>
+        <div class="progress" id="progress"><i></i></div>
+        <div class="status" id="status" aria-live="polite"></div>
+        <p class="stage-note">To have it change each morning, add a four-action Shortcut: about five minutes, once. <a href="./shortcut.html" id="guideLink">Read the guide</a></p>
+      </section>
+
+      <form class="controls" id="form" autocomplete="off" onsubmit="return false">
+
+        <fieldset>
+          <legend>Deadline</legend>
+          <label class="field"><span>What are you counting down to?</span>
+            <input type="text" id="title" maxlength="24" placeholder="First day, new job" />
+          </label>
+          <div class="suggest" id="suggest" hidden>
+            <span>Suggested style: <strong id="suggestName"></strong></span>
+            <button type="button" class="btn small" id="suggestYes">Use it</button>
+            <button type="button" class="icon-btn" id="suggestNo" aria-label="Dismiss suggestion">×</button>
+          </div>
+          <div class="counter" id="titleCount">0/24</div>
+          <div class="gemini" role="group" aria-label="Gemini helpers">
+            <p class="gem-head"><span class="gem" aria-hidden="true">✦</span> Use Gemini to fill this in (optional)</p>
+            <div class="gem-row">
+              <button type="button" class="gem-step" data-sheet="plan"><b>1</b><span><strong>Plan</strong><em id="gemPlanHint">5 dated steps</em></span></button>
+              <button type="button" class="gem-step" data-sheet="art"><b>2</b><span><strong>Paint</strong><em id="gemArtHint">4 skies</em></span></button>
+              <button type="button" class="gem-step" data-sheet="remind"><b>3</b><span><strong>Remind</strong><em id="gemRemindHint">7:00 note</em></span></button>
+            </div>
+          </div>
+
+          <div class="row">
+            <label class="field"><span>Start</span><input type="date" id="start" /></label>
+            <label class="field"><span>Deadline</span><input type="date" id="deadline" /></label>
+          </div>
+          <div class="field">
+            <span>Count in</span>
+            <div class="seg" role="radiogroup">
+              <label><input type="radio" name="unit" value="mornings" /><span>Mornings</span></label>
+              <label><input type="radio" name="unit" value="days" /><span>Days</span></label>
+            </div>
+          </div>
+          <div class="errors" id="errors" role="alert"></div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Milestones <span class="legend-note">· up to 5, short labels</span></legend>
+          <div class="milestones" id="milestones"></div>
+          <button type="button" class="btn small" id="addMs" style="margin-top:10px">+ Add milestone</button>
+          <div class="row aim-row habit-field">
+            <label class="field"><span>Last step, on the deadline <em class="opt">optional, defaults to the title</em></span>
+              <input type="text" id="deadlineLabel" maxlength="24" placeholder="Application due" />
+            </label>
+            <label class="field"><span>Aim to finish by <em class="opt">optional</em></span>
+              <input type="date" id="aimDate" />
+            </label>
+          </div>
+          <p class="hint" id="aimHint">Until then the last step reads “Due · aim for” that date.</p>
+          <label class="field habit-field"><span>After the deadline <em class="opt">optional, shown under “Done”</em></span>
+            <input type="text" id="doneNote" maxlength="40" placeholder="Every milestone, checked." />
+          </label>
+          <label class="field habit-field"><span>Daily habit <em class="opt">optional, up to 8 words</em></span>
+            <input type="text" id="habit" maxlength="48" placeholder="one hard problem before class" />
+          </label>
+          <p class="hint" id="habitHint">Shown as one quiet line under the milestones (“Every morning: …”) when it fits.</p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Style</legend>
+          <div class="themes" id="themes"></div>
+          <p class="hint" id="artHint" hidden></p>
+          <div class="row" style="margin-top:14px">
+            <label class="field"><span>Accent</span>
+              <div style="display:flex;gap:8px;align-items:center">
+                <input type="color" id="accent" />
+                <button type="button" class="btn small" id="accentReset">Theme default</button>
+              </div>
+            </label>
+            <div class="field"><span>Own background</span>
+              <div class="upload">
+                <label class="btn small" for="bg">Upload…</label>
+                <input type="file" id="bg" accept="image/*" multiple />
+                <button type="button" class="btn small" id="bgClear" hidden>Remove</button>
+              </div>
+            </div>
+          </div>
+          <p class="hint" id="bgHint">Upload 1 photo to replace the sky, or 4 (night → sunrise) to crossfade them as the deadline nears. Images stay in this browser and are not put in share links.</p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Device</legend>
+          <label class="field"><span>Screen</span><select id="device"></select></label>
+          <div class="hint" id="deviceHint"></div>
+          <div class="row" id="customRow" hidden>
+            <label class="field"><span>Width px</span><input type="number" id="cw" min="320" max="8000" /></label>
+            <label class="field"><span>Height px</span><input type="number" id="ch" min="320" max="8000" /></label>
+          </div>
+          <div class="field" id="clockRow">
+            <span>Clock size</span>
+            <div class="seg" role="radiogroup" aria-label="Clock size">
+              <label><input type="radio" name="clock" value="standard" /><span>Standard</span></label>
+              <label><input type="radio" name="clock" value="tall" /><span>Tall</span></label>
+            </div>
+            <p class="hint" id="clockHint">Tall moves the countdown lower, for an iPhone clock stretched taller in iOS 26.</p>
+          </div>
+        </fieldset>
+      </form>
+    </main>
+
+    <!-- Gemini sheet (one dialog, three modes) -->
+    <dialog class="sheet" id="sheet" aria-labelledby="sheetTitle">
+      <form method="dialog" class="sheet-inner" onsubmit="return false">
+        <header>
+          <h3 id="sheetTitle">Plan with Gemini</h3>
+          <button type="button" class="icon-btn" id="sheetClose" aria-label="Close">×</button>
+        </header>
+        <p class="sheet-lede" id="sheetLede"></p>
+        <ol class="sheet-steps" id="sheetSteps"></ol>
+        <div id="onePrompt">
+          <label class="field"><span>Prompt</span><textarea id="prompt" rows="9" readonly></textarea></label>
+        </div>
+        <ol class="art-prompts" id="artPrompts" hidden></ol>
+        <div class="sheet-actions">
+          <button type="button" class="btn primary" id="copyPrompt">Copy prompt</button>
+          <a class="btn" id="openGemini" href="https://gemini.google.com/app" target="_blank" rel="noopener">Open Gemini ↗</a>
+        </div>
+
+        <div id="planPaste" class="sheet-part">
+          <div class="paste-head"><span>Paste Gemini’s answer</span><button type="button" class="btn small" id="samplePlan">Try a sample answer</button></div>
+          <label class="field"><span class="sr-only">Gemini’s answer</span><textarea id="answer" rows="7" placeholder="2026-11-14 — Offer paperwork&#10;2026-11-25 — Give notice&#10;…&#10;habit: …"></textarea></label>
+          <div class="parse-preview" id="parsePreview" aria-live="polite"></div>
+          <div class="sheet-actions"><button type="button" class="btn primary" id="applyPlan" disabled>Use these milestones</button><button type="button" class="btn" id="fixPrompt" hidden>Copy a fix-it prompt</button></div>
+        </div>
+
+        <div id="artUpload" class="sheet-part">
+          <div class="field"><span>Add Gemini’s images (1 to 4, in order: night, blue hour, first light, sunrise)</span>
+            <div class="upload">
+              <label class="btn" for="artFiles">Choose images…</label>
+              <input type="file" id="artFiles" accept="image/*" multiple />
+            </div>
+          </div>
+          <div class="art-thumbs" id="artThumbs"></div>
+        </div>
+        <p class="note" id="sheetNote"></p>
+      </form>
+    </dialog>
+
+  </body>
+</html>

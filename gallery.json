@@ -1,0 +1,3137 @@
+[
+  {
+    "slug": "first-day-new-job",
+    "title": "First Day, New Job",
+    "deadline": "2027-01-11",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "daybreak",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-11-17",
+        "label": "Onboarding forms"
+      },
+      {
+        "date": "2026-12-02",
+        "label": "Background check"
+      },
+      {
+        "date": "2026-12-14",
+        "label": "Last day, old job"
+      },
+      {
+        "date": "2026-12-28",
+        "label": "Plan the commute"
+      },
+      {
+        "date": "2027-01-08",
+        "label": "Pick first outfit"
+      }
+    ]
+  },
+  {
+    "slug": "summer-internship",
+    "title": "Internship starts",
+    "deadline": "2027-06-07",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "daybreak",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2027-01-08",
+        "label": "Sign sublease"
+      },
+      {
+        "date": "2027-02-17",
+        "label": "I-9 paperwork"
+      },
+      {
+        "date": "2027-03-29",
+        "label": "Book the flight"
+      },
+      {
+        "date": "2027-05-08",
+        "label": "Read onboarding"
+      },
+      {
+        "date": "2027-05-31",
+        "label": "Ship boxes"
+      }
+    ],
+    "accent": "#f4b860"
+  },
+  {
+    "slug": "thesis-defense",
+    "title": "Thesis Defense",
+    "deadline": "2027-04-23",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "summit",
+    "device": "mac-16x10",
+    "milestones": [
+      {
+        "date": "2026-12-24",
+        "label": "Last chapter draft"
+      },
+      {
+        "date": "2027-01-29",
+        "label": "Draft to advisor"
+      },
+      {
+        "date": "2027-02-26",
+        "label": "Draft to committee"
+      },
+      {
+        "date": "2027-03-26",
+        "label": "Slides and dry run"
+      },
+      {
+        "date": "2027-04-16",
+        "label": "Final mock defense"
+      }
+    ]
+  },
+  {
+    "slug": "ca-bar-exam",
+    "title": "California Bar",
+    "deadline": "2027-02-23",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "summit",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-11-17",
+        "label": "MBE outlines done"
+      },
+      {
+        "date": "2026-12-15",
+        "label": "Full practice exam"
+      },
+      {
+        "date": "2027-01-12",
+        "label": "Timed essays daily"
+      },
+      {
+        "date": "2027-02-02",
+        "label": "Performance tests"
+      },
+      {
+        "date": "2027-02-19",
+        "label": "ExamSoft mock"
+      }
+    ],
+    "accent": "#c9a227"
+  },
+  {
+    "slug": "cpa-far-exam",
+    "title": "CPA FAR Exam",
+    "deadline": "2027-03-27",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "summit",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-11-27",
+        "label": "Book testing seat"
+      },
+      {
+        "date": "2026-12-27",
+        "label": "Lease chapters"
+      },
+      {
+        "date": "2027-01-26",
+        "label": "Government units"
+      },
+      {
+        "date": "2027-02-25",
+        "label": "Two mock exams"
+      },
+      {
+        "date": "2027-03-20",
+        "label": "Final review"
+      }
+    ]
+  },
+  {
+    "slug": "mcat-test-day",
+    "title": "MCAT Test Day",
+    "deadline": "2027-04-17",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "summit",
+    "device": "pixel-9",
+    "milestones": [
+      {
+        "date": "2026-11-18",
+        "label": "Diagnostic test"
+      },
+      {
+        "date": "2026-12-28",
+        "label": "Content review"
+      },
+      {
+        "date": "2027-02-06",
+        "label": "AAMC full-length 1"
+      },
+      {
+        "date": "2027-03-13",
+        "label": "AAMC full-length 3"
+      },
+      {
+        "date": "2027-04-07",
+        "label": "Last full-length"
+      }
+    ]
+  },
+  {
+    "slug": "boston-marathon",
+    "title": "Boston Marathon",
+    "deadline": "2027-04-19",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "road",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-12-28",
+        "label": "Base block done"
+      },
+      {
+        "date": "2027-02-01",
+        "label": "First 18-mile run"
+      },
+      {
+        "date": "2027-03-08",
+        "label": "Peak 20-miler"
+      },
+      {
+        "date": "2027-03-29",
+        "label": "Taper begins"
+      },
+      {
+        "date": "2027-04-16",
+        "label": "Pick up race bib"
+      }
+    ],
+    "accent": "#2f6fd6"
+  },
+  {
+    "slug": "nyc-half",
+    "title": "NYC Half Marathon",
+    "deadline": "2027-03-21",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "road",
+    "device": "iphone-6.9",
+    "milestones": [
+      {
+        "date": "2026-12-06",
+        "label": "25 miles a week"
+      },
+      {
+        "date": "2027-01-10",
+        "label": "First 10-mile run"
+      },
+      {
+        "date": "2027-02-07",
+        "label": "Tempo run 8 miles"
+      },
+      {
+        "date": "2027-02-28",
+        "label": "Race-pace 12 miles"
+      },
+      {
+        "date": "2027-03-14",
+        "label": "Taper week begins"
+      }
+    ]
+  },
+  {
+    "slug": "our-wedding",
+    "title": "Our Wedding Day",
+    "deadline": "2027-06-12",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "bloom",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-12-14",
+        "label": "Save-the-dates out"
+      },
+      {
+        "date": "2027-02-12",
+        "label": "Florist and cake"
+      },
+      {
+        "date": "2027-03-29",
+        "label": "Mail invitations"
+      },
+      {
+        "date": "2027-05-13",
+        "label": "Final fitting"
+      },
+      {
+        "date": "2027-06-02",
+        "label": "Seating chart"
+      }
+    ],
+    "accent": "#f2a7b8"
+  },
+  {
+    "slug": "moving-day",
+    "title": "Moving Day",
+    "deadline": "2027-01-30",
+    "start": "2026-11-02",
+    "unit": "days",
+    "theme": "road",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-12-01",
+        "label": "Book moving truck"
+      },
+      {
+        "date": "2026-12-21",
+        "label": "Notify landlord"
+      },
+      {
+        "date": "2027-01-09",
+        "label": "Start packing"
+      },
+      {
+        "date": "2027-01-20",
+        "label": "Forward mail"
+      },
+      {
+        "date": "2027-01-28",
+        "label": "Defrost the fridge"
+      }
+    ]
+  },
+  {
+    "slug": "visa-renewal",
+    "title": "Visa Renewal Filed",
+    "deadline": "2027-02-15",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "launch",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-11-17",
+        "label": "Gather pay stubs"
+      },
+      {
+        "date": "2026-12-07",
+        "label": "Employer letter"
+      },
+      {
+        "date": "2027-01-01",
+        "label": "Fill online form"
+      },
+      {
+        "date": "2027-01-21",
+        "label": "Book biometrics"
+      },
+      {
+        "date": "2027-02-08",
+        "label": "Print checklist"
+      }
+    ]
+  },
+  {
+    "slug": "product-launch",
+    "title": "Product Launch Day",
+    "deadline": "2027-03-09",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "launch",
+    "device": "mac-16x10",
+    "milestones": [
+      {
+        "date": "2026-11-19",
+        "label": "Lock launch scope"
+      },
+      {
+        "date": "2026-12-19",
+        "label": "Beta with 50 users"
+      },
+      {
+        "date": "2027-01-18",
+        "label": "Feature freeze"
+      },
+      {
+        "date": "2027-02-12",
+        "label": "Press kit ready"
+      },
+      {
+        "date": "2027-03-02",
+        "label": "Launch rehearsal"
+      }
+    ],
+    "accent": "#ff6a3d"
+  },
+  {
+    "slug": "app-store-submission",
+    "title": "App Store launch",
+    "deadline": "2027-02-01",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "launch",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-11-13",
+        "label": "Core flows done"
+      },
+      {
+        "date": "2026-12-03",
+        "label": "TestFlight beta"
+      },
+      {
+        "date": "2026-12-28",
+        "label": "Fix top crash bugs"
+      },
+      {
+        "date": "2027-01-14",
+        "label": "Store screenshots"
+      },
+      {
+        "date": "2027-01-27",
+        "label": "Privacy labels"
+      }
+    ]
+  },
+  {
+    "slug": "album-release",
+    "title": "Album Release",
+    "deadline": "2027-05-21",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "launch",
+    "device": "iphone-6.9",
+    "milestones": [
+      {
+        "date": "2026-12-22",
+        "label": "Final mixes"
+      },
+      {
+        "date": "2027-01-21",
+        "label": "Masters delivered"
+      },
+      {
+        "date": "2027-02-20",
+        "label": "Upload the album"
+      },
+      {
+        "date": "2027-04-06",
+        "label": "Lead single out"
+      },
+      {
+        "date": "2027-05-07",
+        "label": "Listening party"
+      }
+    ],
+    "accent": "#b04cff"
+  },
+  {
+    "slug": "spring-hackathon",
+    "title": "Spring Hackathon",
+    "deadline": "2027-03-13",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "launch",
+    "device": "win-16x9",
+    "milestones": [
+      {
+        "date": "2026-12-13",
+        "label": "Register the team"
+      },
+      {
+        "date": "2027-01-12",
+        "label": "Pick problem track"
+      },
+      {
+        "date": "2027-02-06",
+        "label": "Skim sponsor APIs"
+      },
+      {
+        "date": "2027-02-27",
+        "label": "Starter repo ready"
+      },
+      {
+        "date": "2027-03-11",
+        "label": "Pack chargers"
+      }
+    ]
+  },
+  {
+    "slug": "nih-r01-due",
+    "title": "NIH R01 Due",
+    "deadline": "2027-02-05",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "launch",
+    "device": "mac-16x10",
+    "milestones": [
+      {
+        "date": "2026-11-12",
+        "label": "Specific aims"
+      },
+      {
+        "date": "2026-12-02",
+        "label": "Aims to mentors"
+      },
+      {
+        "date": "2026-12-22",
+        "label": "Research strategy"
+      },
+      {
+        "date": "2027-01-11",
+        "label": "Budget to grants"
+      },
+      {
+        "date": "2027-01-28",
+        "label": "Internal review"
+      }
+    ]
+  },
+  {
+    "slug": "tax-day",
+    "title": "Tax Day",
+    "deadline": "2027-04-15",
+    "start": "2026-11-02",
+    "unit": "days",
+    "theme": "launch",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2027-01-30",
+        "label": "Collect W-2s"
+      },
+      {
+        "date": "2027-02-14",
+        "label": "Organize receipts"
+      },
+      {
+        "date": "2027-03-06",
+        "label": "Book tax prep slot"
+      },
+      {
+        "date": "2027-03-26",
+        "label": "Review the return"
+      },
+      {
+        "date": "2027-04-10",
+        "label": "E-file and pay"
+      }
+    ],
+    "accent": "#3aa675"
+  },
+  {
+    "slug": "driving-road-test",
+    "title": "Driving Road Test",
+    "deadline": "2027-01-22",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "road",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-11-13",
+        "label": "20 practice hours"
+      },
+      {
+        "date": "2026-12-04",
+        "label": "Highway practice"
+      },
+      {
+        "date": "2026-12-23",
+        "label": "Parallel parking"
+      },
+      {
+        "date": "2027-01-08",
+        "label": "Mock drive test"
+      },
+      {
+        "date": "2027-01-20",
+        "label": "Car registration"
+      }
+    ]
+  },
+  {
+    "slug": "spring-piano-recital",
+    "title": "Piano recital",
+    "deadline": "2027-05-16",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "bloom",
+    "device": "ipad-11",
+    "milestones": [
+      {
+        "date": "2026-12-07",
+        "label": "Choose the piece"
+      },
+      {
+        "date": "2027-01-26",
+        "label": "Learn every note"
+      },
+      {
+        "date": "2027-03-02",
+        "label": "Memorize half"
+      },
+      {
+        "date": "2027-04-01",
+        "label": "Memorize it all"
+      },
+      {
+        "date": "2027-05-11",
+        "label": "Dress rehearsal"
+      }
+    ],
+    "accent": "#e8c07d"
+  },
+  {
+    "slug": "citizenship-interview",
+    "title": "Citizenship test",
+    "deadline": "2027-03-03",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "summit",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-11-23",
+        "label": "First 50 questions"
+      },
+      {
+        "date": "2026-12-23",
+        "label": "All 100 questions"
+      },
+      {
+        "date": "2027-01-17",
+        "label": "Reading drills"
+      },
+      {
+        "date": "2027-02-10",
+        "label": "Review N-400"
+      },
+      {
+        "date": "2027-03-01",
+        "label": "Mock interview"
+      }
+    ],
+    "accent": "#3b5bdb"
+  },
+  {
+    "slug": "study-abroad-departure",
+    "title": "Study abroad",
+    "deadline": "2027-01-18",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "daybreak",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-11-09",
+        "label": "Visa approved"
+      },
+      {
+        "date": "2026-11-29",
+        "label": "Book flights"
+      },
+      {
+        "date": "2026-12-14",
+        "label": "Housing confirmed"
+      },
+      {
+        "date": "2026-12-31",
+        "label": "Bank travel notice"
+      },
+      {
+        "date": "2027-01-15",
+        "label": "Pack the carry-on"
+      }
+    ]
+  },
+  {
+    "slug": "graduation-day",
+    "title": "Graduation Day",
+    "deadline": "2027-05-22",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "bloom",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-11-23",
+        "label": "Apply to graduate"
+      },
+      {
+        "date": "2027-01-22",
+        "label": "Final degree audit"
+      },
+      {
+        "date": "2027-03-23",
+        "label": "Order cap and gown"
+      },
+      {
+        "date": "2027-05-01",
+        "label": "Family invites"
+      },
+      {
+        "date": "2027-05-15",
+        "label": "Last final exam"
+      }
+    ],
+    "accent": "#7a5cff"
+  },
+  {
+    "slug": "startup-demo-day",
+    "title": "Startup Demo Day",
+    "deadline": "2027-03-25",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "launch",
+    "device": "mac-16x10",
+    "milestones": [
+      {
+        "date": "2026-12-05",
+        "label": "Pick the metric"
+      },
+      {
+        "date": "2027-01-04",
+        "label": "100 paying users"
+      },
+      {
+        "date": "2027-02-03",
+        "label": "Pitch deck v1"
+      },
+      {
+        "date": "2027-02-28",
+        "label": "Investor dry runs"
+      },
+      {
+        "date": "2027-03-18",
+        "label": "Pitch rehearsal"
+      }
+    ],
+    "accent": "#ff8a00"
+  },
+  {
+    "slug": "conference-talk",
+    "title": "Conference Talk",
+    "deadline": "2027-04-28",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "summit",
+    "device": "mac-16x10",
+    "milestones": [
+      {
+        "date": "2027-01-18",
+        "label": "Outline the talk"
+      },
+      {
+        "date": "2027-02-17",
+        "label": "Slides first draft"
+      },
+      {
+        "date": "2027-03-14",
+        "label": "Practice recording"
+      },
+      {
+        "date": "2027-04-03",
+        "label": "Peer feedback"
+      },
+      {
+        "date": "2027-04-23",
+        "label": "Final run-through"
+      }
+    ]
+  },
+  {
+    "slug": "manuscript-due",
+    "title": "Manuscript due",
+    "deadline": "2027-06-01",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "launch",
+    "device": "mac-16x10",
+    "milestones": [
+      {
+        "date": "2026-11-13",
+        "label": "Finish act one"
+      },
+      {
+        "date": "2027-01-02",
+        "label": "Finish act two"
+      },
+      {
+        "date": "2027-02-21",
+        "label": "First draft done"
+      },
+      {
+        "date": "2027-04-02",
+        "label": "Revision pass one"
+      },
+      {
+        "date": "2027-05-12",
+        "label": "Copyedit and proof"
+      }
+    ]
+  },
+  {
+    "slug": "baby-due-date",
+    "title": "Baby Due Date",
+    "deadline": "2027-03-14",
+    "start": "2026-11-02",
+    "unit": "days",
+    "theme": "bloom",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-11-14",
+        "label": "Tour the hospital"
+      },
+      {
+        "date": "2026-12-14",
+        "label": "Set up the nursery"
+      },
+      {
+        "date": "2027-01-13",
+        "label": "Install car seat"
+      },
+      {
+        "date": "2027-02-07",
+        "label": "Pack hospital bag"
+      },
+      {
+        "date": "2027-02-28",
+        "label": "Freeze ready meals"
+      }
+    ],
+    "accent": "#ffb38a"
+  },
+  {
+    "slug": "knee-recovery-check",
+    "title": "Knee recovery",
+    "deadline": "2027-01-15",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "bloom",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-11-16",
+        "label": "Off crutches"
+      },
+      {
+        "date": "2026-12-01",
+        "label": "Full knee bend"
+      },
+      {
+        "date": "2026-12-16",
+        "label": "Daily bike work"
+      },
+      {
+        "date": "2027-01-01",
+        "label": "Walk two miles"
+      },
+      {
+        "date": "2027-01-12",
+        "label": "Track motion"
+      }
+    ]
+  },
+  {
+    "slug": "kitchen-renovation",
+    "title": "Kitchen Renovation",
+    "deadline": "2027-04-02",
+    "start": "2026-11-02",
+    "unit": "days",
+    "theme": "bloom",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-11-23",
+        "label": "Final layout"
+      },
+      {
+        "date": "2026-12-23",
+        "label": "Order cabinets"
+      },
+      {
+        "date": "2027-02-01",
+        "label": "Demolition day"
+      },
+      {
+        "date": "2027-02-26",
+        "label": "Countertops in"
+      },
+      {
+        "date": "2027-03-23",
+        "label": "Final inspection"
+      }
+    ]
+  },
+  {
+    "slug": "first-10k",
+    "title": "First 10K Race",
+    "deadline": "2027-02-14",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "road",
+    "device": "pixel-9",
+    "milestones": [
+      {
+        "date": "2026-11-16",
+        "label": "Run 3 miles"
+      },
+      {
+        "date": "2026-12-13",
+        "label": "Run 4 miles easy"
+      },
+      {
+        "date": "2027-01-03",
+        "label": "First 5-mile run"
+      },
+      {
+        "date": "2027-01-24",
+        "label": "Race-pace 5K"
+      },
+      {
+        "date": "2027-02-09",
+        "label": "Easy shakeout runs"
+      }
+    ],
+    "accent": "#ff5d73"
+  },
+  {
+    "slug": "toefl-ibt",
+    "title": "TOEFL iBT Test",
+    "deadline": "2027-01-30",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "summit",
+    "device": "pixel-9",
+    "milestones": [
+      {
+        "date": "2026-11-11",
+        "label": "Diagnostic test"
+      },
+      {
+        "date": "2026-12-01",
+        "label": "Speaking drills"
+      },
+      {
+        "date": "2026-12-21",
+        "label": "Writing templates"
+      },
+      {
+        "date": "2027-01-10",
+        "label": "Full mock test"
+      },
+      {
+        "date": "2027-01-25",
+        "label": "Weakest section"
+      }
+    ]
+  },
+  {
+    "slug": "portfolio-review",
+    "title": "Portfolio review",
+    "deadline": "2027-02-26",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "summit",
+    "device": "mac-16x10",
+    "milestones": [
+      {
+        "date": "2026-11-18",
+        "label": "Pick case studies"
+      },
+      {
+        "date": "2026-12-13",
+        "label": "Rewrite case one"
+      },
+      {
+        "date": "2027-01-07",
+        "label": "Prototype clips"
+      },
+      {
+        "date": "2027-02-01",
+        "label": "Mentor critique"
+      },
+      {
+        "date": "2027-02-19",
+        "label": "Export final PDF"
+      }
+    ],
+    "accent": "#00a6a6"
+  },
+  {
+    "slug": "phd-qualifying-exam",
+    "title": "PhD quals exam",
+    "deadline": "2027-05-10",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "summit",
+    "device": "mac-16x10",
+    "milestones": [
+      {
+        "date": "2026-11-21",
+        "label": "Reading list set"
+      },
+      {
+        "date": "2026-12-31",
+        "label": "Topic one notes"
+      },
+      {
+        "date": "2027-02-09",
+        "label": "Topic two notes"
+      },
+      {
+        "date": "2027-03-21",
+        "label": "Mock oral exam"
+      },
+      {
+        "date": "2027-04-26",
+        "label": "Written review"
+      }
+    ]
+  },
+  {
+    "slug": "team-offsite",
+    "title": "Team Offsite",
+    "deadline": "2027-02-10",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "road",
+    "device": "win-16x9",
+    "milestones": [
+      {
+        "date": "2026-11-22",
+        "label": "Book the venue"
+      },
+      {
+        "date": "2026-12-12",
+        "label": "Set offsite goals"
+      },
+      {
+        "date": "2027-01-01",
+        "label": "Send agenda draft"
+      },
+      {
+        "date": "2027-01-21",
+        "label": "Collect pre-reads"
+      },
+      {
+        "date": "2027-02-05",
+        "label": "Print name badges"
+      }
+    ]
+  },
+  {
+    "slug": "seed-round-close",
+    "title": "Seed Round Close",
+    "deadline": "2027-04-30",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "launch",
+    "device": "mac-16x10",
+    "milestones": [
+      {
+        "date": "2026-12-01",
+        "label": "Data room ready"
+      },
+      {
+        "date": "2026-12-31",
+        "label": "20 investor calls"
+      },
+      {
+        "date": "2027-01-30",
+        "label": "Term sheet signed"
+      },
+      {
+        "date": "2027-03-16",
+        "label": "Due diligence"
+      },
+      {
+        "date": "2027-04-15",
+        "label": "Docs to sign"
+      }
+    ],
+    "accent": "#16a34a"
+  },
+  {
+    "slug": "softball-season-opener",
+    "title": "Softball opener",
+    "deadline": "2027-02-20",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "bloom",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-11-22",
+        "label": "Lifting block"
+      },
+      {
+        "date": "2026-12-22",
+        "label": "Batting cages"
+      },
+      {
+        "date": "2027-01-11",
+        "label": "Outdoor practice"
+      },
+      {
+        "date": "2027-01-30",
+        "label": "Rival scrimmage"
+      },
+      {
+        "date": "2027-02-15",
+        "label": "Lineup finalized"
+      }
+    ]
+  },
+  {
+    "slug": "tokyo-marathon",
+    "title": "Tokyo Marathon",
+    "deadline": "2027-03-07",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "road",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-11-15",
+        "label": "Base 30-mile weeks"
+      },
+      {
+        "date": "2026-12-13",
+        "label": "First 16-mile run"
+      },
+      {
+        "date": "2027-01-17",
+        "label": "Peak 20-miler"
+      },
+      {
+        "date": "2027-02-14",
+        "label": "Taper starts"
+      },
+      {
+        "date": "2027-03-03",
+        "label": "Fly to Tokyo"
+      }
+    ],
+    "accent": "#e63946"
+  },
+  {
+    "slug": "london-marathon",
+    "title": "London Marathon",
+    "deadline": "2027-04-25",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "road",
+    "device": "iphone-6.9",
+    "milestones": [
+      {
+        "date": "2026-12-26",
+        "label": "Charity page live"
+      },
+      {
+        "date": "2027-01-25",
+        "label": "First 15-mile run"
+      },
+      {
+        "date": "2027-03-07",
+        "label": "Peak 20-miler"
+      },
+      {
+        "date": "2027-04-04",
+        "label": "Taper begins"
+      },
+      {
+        "date": "2027-04-22",
+        "label": "Expo bib pickup"
+      }
+    ]
+  },
+  {
+    "slug": "match-day",
+    "title": "Match Day",
+    "deadline": "2027-03-19",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "summit",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-11-29",
+        "label": "Last interview"
+      },
+      {
+        "date": "2026-12-29",
+        "label": "Thank-you notes"
+      },
+      {
+        "date": "2027-02-02",
+        "label": "Draft rank list"
+      },
+      {
+        "date": "2027-03-03",
+        "label": "Certify rank list"
+      },
+      {
+        "date": "2027-03-15",
+        "label": "Match Week begins"
+      }
+    ],
+    "accent": "#2563eb"
+  },
+  {
+    "slug": "ap-calculus-bc",
+    "title": "AP Calculus exam",
+    "deadline": "2027-05-10",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "summit",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-12-11",
+        "label": "Integration drills"
+      },
+      {
+        "date": "2027-01-20",
+        "label": "Finish series unit"
+      },
+      {
+        "date": "2027-03-01",
+        "label": "Full practice exam"
+      },
+      {
+        "date": "2027-04-05",
+        "label": "FRQ drills daily"
+      },
+      {
+        "date": "2027-04-30",
+        "label": "Final timed mock"
+      }
+    ]
+  },
+  {
+    "slug": "sat-may",
+    "title": "SAT Test Day",
+    "deadline": "2027-05-01",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "summit",
+    "device": "pixel-9",
+    "milestones": [
+      {
+        "date": "2027-01-01",
+        "label": "Baseline test"
+      },
+      {
+        "date": "2027-01-31",
+        "label": "Fix math gaps"
+      },
+      {
+        "date": "2027-03-02",
+        "label": "Practice test 2"
+      },
+      {
+        "date": "2027-04-01",
+        "label": "Daily reading"
+      },
+      {
+        "date": "2027-04-24",
+        "label": "Bluebook practice"
+      }
+    ]
+  },
+  {
+    "slug": "dele-b2",
+    "title": "DELE B2 exam",
+    "deadline": "2027-05-22",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "summit",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-12-13",
+        "label": "Daily podcast"
+      },
+      {
+        "date": "2027-02-01",
+        "label": "Grammar review"
+      },
+      {
+        "date": "2027-03-13",
+        "label": "Mock written exam"
+      },
+      {
+        "date": "2027-04-07",
+        "label": "Register by Apr 7"
+      },
+      {
+        "date": "2027-05-08",
+        "label": "Oral exam practice"
+      }
+    ],
+    "accent": "#f59e0b"
+  },
+  {
+    "slug": "ces-booth",
+    "title": "CES Booth Ready",
+    "deadline": "2027-01-06",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "launch",
+    "device": "win-16x9",
+    "milestones": [
+      {
+        "date": "2026-11-07",
+        "label": "Booth design final"
+      },
+      {
+        "date": "2026-11-22",
+        "label": "Demo units built"
+      },
+      {
+        "date": "2026-12-07",
+        "label": "Ship booth crate"
+      },
+      {
+        "date": "2026-12-23",
+        "label": "Press briefings"
+      },
+      {
+        "date": "2027-01-03",
+        "label": "Fly to Las Vegas"
+      }
+    ]
+  },
+  {
+    "slug": "sxsw-panel",
+    "title": "SXSW Panel Talk",
+    "deadline": "2027-03-15",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "summit",
+    "device": "mac-16x10",
+    "milestones": [
+      {
+        "date": "2026-12-15",
+        "label": "Confirm panel"
+      },
+      {
+        "date": "2027-01-14",
+        "label": "Session outline"
+      },
+      {
+        "date": "2027-02-08",
+        "label": "Slides draft"
+      },
+      {
+        "date": "2027-03-01",
+        "label": "Group rehearsal"
+      },
+      {
+        "date": "2027-03-12",
+        "label": "Travel to Austin"
+      }
+    ]
+  },
+  {
+    "slug": "half-ironman",
+    "title": "70.3 Triathlon",
+    "deadline": "2027-06-13",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "road",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-12-15",
+        "label": "Swim 1 mile"
+      },
+      {
+        "date": "2027-02-03",
+        "label": "First 40-mile ride"
+      },
+      {
+        "date": "2027-03-15",
+        "label": "Brick workouts"
+      },
+      {
+        "date": "2027-04-29",
+        "label": "Open water swim"
+      },
+      {
+        "date": "2027-05-30",
+        "label": "Taper and tune-up"
+      }
+    ],
+    "accent": "#0ea5e9"
+  },
+  {
+    "slug": "new-grad-start",
+    "title": "New grad start",
+    "deadline": "2027-02-01",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "daybreak",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-11-13",
+        "label": "Relocation signed"
+      },
+      {
+        "date": "2026-12-03",
+        "label": "Find an apartment"
+      },
+      {
+        "date": "2026-12-23",
+        "label": "Laptop setup email"
+      },
+      {
+        "date": "2027-01-12",
+        "label": "Read team handbook"
+      },
+      {
+        "date": "2027-01-27",
+        "label": "Buy a work bag"
+      }
+    ]
+  },
+  {
+    "slug": "nclex-exam",
+    "title": "NCLEX Exam",
+    "deadline": "2027-06-24",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "summit",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-12-26",
+        "label": "75 questions a day"
+      },
+      {
+        "date": "2027-02-24",
+        "label": "Pharmacology"
+      },
+      {
+        "date": "2027-04-05",
+        "label": "Readiness check"
+      },
+      {
+        "date": "2027-05-15",
+        "label": "Pass two mocks"
+      },
+      {
+        "date": "2027-06-14",
+        "label": "Light review only"
+      }
+    ]
+  },
+  {
+    "slug": "usmle-step-1",
+    "title": "USMLE Step 1",
+    "deadline": "2027-05-27",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "summit",
+    "device": "pixel-9",
+    "milestones": [
+      {
+        "date": "2026-12-18",
+        "label": "First Aid pass"
+      },
+      {
+        "date": "2027-01-27",
+        "label": "Qbank half done"
+      },
+      {
+        "date": "2027-03-08",
+        "label": "NBME baseline"
+      },
+      {
+        "date": "2027-04-17",
+        "label": "Qbank complete"
+      },
+      {
+        "date": "2027-05-17",
+        "label": "Free 120 practice"
+      }
+    ]
+  },
+  {
+    "slug": "gre-test-day",
+    "title": "GRE Test Day",
+    "deadline": "2027-01-23",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "summit",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-11-09",
+        "label": "Diagnostic test"
+      },
+      {
+        "date": "2026-11-29",
+        "label": "Formula sheet"
+      },
+      {
+        "date": "2026-12-19",
+        "label": "Vocab list done"
+      },
+      {
+        "date": "2027-01-03",
+        "label": "Timed practice"
+      },
+      {
+        "date": "2027-01-17",
+        "label": "Essay practice"
+      }
+    ]
+  },
+  {
+    "slug": "pmp-exam",
+    "title": "PMP exam",
+    "deadline": "2027-03-30",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "summit",
+    "device": "win-16x9",
+    "milestones": [
+      {
+        "date": "2026-11-30",
+        "label": "35 contact hours"
+      },
+      {
+        "date": "2026-12-30",
+        "label": "Agile practice set"
+      },
+      {
+        "date": "2027-01-29",
+        "label": "Process groups"
+      },
+      {
+        "date": "2027-02-28",
+        "label": "180-question mock"
+      },
+      {
+        "date": "2027-03-23",
+        "label": "Formula flashcards"
+      }
+    ]
+  },
+  {
+    "slug": "cloud-cert-exam",
+    "title": "Cloud Cert Exam",
+    "deadline": "2027-02-18",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "summit",
+    "device": "win-16x9",
+    "milestones": [
+      {
+        "date": "2026-11-20",
+        "label": "Course videos done"
+      },
+      {
+        "date": "2026-12-15",
+        "label": "Hands-on labs done"
+      },
+      {
+        "date": "2027-01-09",
+        "label": "Practice exam one"
+      },
+      {
+        "date": "2027-01-29",
+        "label": "Practice exam two"
+      },
+      {
+        "date": "2027-02-13",
+        "label": "Missed topics"
+      }
+    ],
+    "accent": "#ff9900"
+  },
+  {
+    "slug": "passport-renewal",
+    "title": "Passport Renewal",
+    "deadline": "2027-01-29",
+    "start": "2026-11-02",
+    "unit": "days",
+    "theme": "launch",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-11-20",
+        "label": "Passport photos"
+      },
+      {
+        "date": "2026-11-30",
+        "label": "Fill out DS-82"
+      },
+      {
+        "date": "2026-12-10",
+        "label": "Mail application"
+      },
+      {
+        "date": "2027-01-08",
+        "label": "Track status"
+      },
+      {
+        "date": "2027-01-22",
+        "label": "Book trip flights"
+      }
+    ]
+  },
+  {
+    "slug": "final-round-interview",
+    "title": "Final interview",
+    "deadline": "2027-01-14",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "summit",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-11-15",
+        "label": "Mock interview one"
+      },
+      {
+        "date": "2026-11-30",
+        "label": "System design"
+      },
+      {
+        "date": "2026-12-15",
+        "label": "Behavior stories"
+      },
+      {
+        "date": "2026-12-31",
+        "label": "Research the team"
+      },
+      {
+        "date": "2027-01-12",
+        "label": "Rest, pick outfit"
+      }
+    ]
+  },
+  {
+    "slug": "spring-career-fair",
+    "title": "Spring Career Fair",
+    "deadline": "2027-02-04",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "daybreak",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-11-16",
+        "label": "Update the resume"
+      },
+      {
+        "date": "2026-12-06",
+        "label": "Career center"
+      },
+      {
+        "date": "2026-12-26",
+        "label": "Elevator pitch"
+      },
+      {
+        "date": "2027-01-15",
+        "label": "Target companies"
+      },
+      {
+        "date": "2027-02-01",
+        "label": "Print 30 resumes"
+      }
+    ],
+    "accent": "#6366f1"
+  },
+  {
+    "slug": "offer-by-june",
+    "title": "Job Offer by June",
+    "deadline": "2027-06-30",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "daybreak",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-12-12",
+        "label": "Resume rewrite"
+      },
+      {
+        "date": "2027-01-21",
+        "label": "50 applications"
+      },
+      {
+        "date": "2027-03-12",
+        "label": "10 interviews"
+      },
+      {
+        "date": "2027-05-01",
+        "label": "5 final rounds"
+      },
+      {
+        "date": "2027-06-10",
+        "label": "Negotiate offer"
+      }
+    ]
+  },
+  {
+    "slug": "phd-applications",
+    "title": "PhD apps due",
+    "deadline": "2027-01-01",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "launch",
+    "device": "mac-16x10",
+    "milestones": [
+      {
+        "date": "2026-11-07",
+        "label": "Statement draft"
+      },
+      {
+        "date": "2026-11-20",
+        "label": "Nudge recommenders"
+      },
+      {
+        "date": "2026-12-04",
+        "label": "Statement final"
+      },
+      {
+        "date": "2026-12-18",
+        "label": "Writing sample"
+      },
+      {
+        "date": "2026-12-28",
+        "label": "Submit all portals"
+      }
+    ]
+  },
+  {
+    "slug": "fafsa-priority",
+    "title": "FAFSA deadline",
+    "deadline": "2027-03-02",
+    "start": "2026-11-02",
+    "unit": "days",
+    "theme": "launch",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-11-22",
+        "label": "StudentAid ID"
+      },
+      {
+        "date": "2026-12-12",
+        "label": "2025 tax info"
+      },
+      {
+        "date": "2027-01-01",
+        "label": "Invite a parent"
+      },
+      {
+        "date": "2027-01-31",
+        "label": "Submit the FAFSA"
+      },
+      {
+        "date": "2027-02-20",
+        "label": "Cal Grant check"
+      }
+    ]
+  },
+  {
+    "slug": "scholarship-essay",
+    "title": "Scholarship essay",
+    "deadline": "2027-02-15",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "launch",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-12-07",
+        "label": "Pick essay prompt"
+      },
+      {
+        "date": "2026-12-27",
+        "label": "Outline the story"
+      },
+      {
+        "date": "2027-01-11",
+        "label": "First draft done"
+      },
+      {
+        "date": "2027-01-26",
+        "label": "Teacher feedback"
+      },
+      {
+        "date": "2027-02-10",
+        "label": "Final proofread"
+      }
+    ],
+    "accent": "#a855f7"
+  },
+  {
+    "slug": "college-decision-day",
+    "title": "Decision Day",
+    "deadline": "2027-05-01",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "summit",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-12-02",
+        "label": "Mid-year grades"
+      },
+      {
+        "date": "2027-01-11",
+        "label": "Decision letters"
+      },
+      {
+        "date": "2027-03-02",
+        "label": "Compare aid"
+      },
+      {
+        "date": "2027-04-01",
+        "label": "Admitted day"
+      },
+      {
+        "date": "2027-04-24",
+        "label": "Final family talk"
+      }
+    ]
+  },
+  {
+    "slug": "ielts-academic",
+    "title": "IELTS Academic",
+    "deadline": "2027-02-27",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "summit",
+    "device": "pixel-9",
+    "milestones": [
+      {
+        "date": "2026-11-29",
+        "label": "Baseline mock test"
+      },
+      {
+        "date": "2026-12-24",
+        "label": "Task 2 writing"
+      },
+      {
+        "date": "2027-01-13",
+        "label": "Daily listening"
+      },
+      {
+        "date": "2027-02-02",
+        "label": "Speaking mock"
+      },
+      {
+        "date": "2027-02-20",
+        "label": "Full timed mock"
+      }
+    ]
+  },
+  {
+    "slug": "first-half-marathon",
+    "title": "Half marathon",
+    "deadline": "2027-04-11",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "road",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-12-12",
+        "label": "Run 5 miles easy"
+      },
+      {
+        "date": "2027-01-17",
+        "label": "First 8-mile run"
+      },
+      {
+        "date": "2027-02-14",
+        "label": "First 10-mile run"
+      },
+      {
+        "date": "2027-03-14",
+        "label": "Race-pace 10K"
+      },
+      {
+        "date": "2027-04-01",
+        "label": "Taper week"
+      }
+    ],
+    "accent": "#f97316"
+  },
+  {
+    "slug": "version-2-launch",
+    "title": "Version 2.0 Launch",
+    "deadline": "2027-06-15",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "launch",
+    "device": "iphone-6.9",
+    "milestones": [
+      {
+        "date": "2026-12-17",
+        "label": "Roadmap locked"
+      },
+      {
+        "date": "2027-02-05",
+        "label": "Design system"
+      },
+      {
+        "date": "2027-03-27",
+        "label": "Dogfooding"
+      },
+      {
+        "date": "2027-05-06",
+        "label": "Public beta"
+      },
+      {
+        "date": "2027-06-03",
+        "label": "Release notes"
+      }
+    ]
+  },
+  {
+    "slug": "podcast-launch",
+    "title": "Podcast Launch",
+    "deadline": "2027-02-22",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "launch",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-11-14",
+        "label": "Name and cover art"
+      },
+      {
+        "date": "2026-12-09",
+        "label": "Record the pilot"
+      },
+      {
+        "date": "2027-01-03",
+        "label": "Bank 3 episodes"
+      },
+      {
+        "date": "2027-01-28",
+        "label": "Trailer published"
+      },
+      {
+        "date": "2027-02-15",
+        "label": "Guests booked"
+      }
+    ],
+    "accent": "#ec4899"
+  },
+  {
+    "slug": "crowdfund-launch",
+    "title": "Crowdfund Launch",
+    "deadline": "2027-04-06",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "launch",
+    "device": "mac-16x10",
+    "milestones": [
+      {
+        "date": "2026-11-17",
+        "label": "Prototype v3 built"
+      },
+      {
+        "date": "2026-12-27",
+        "label": "Campaign video"
+      },
+      {
+        "date": "2027-01-26",
+        "label": "Reward tiers final"
+      },
+      {
+        "date": "2027-02-25",
+        "label": "Prelaunch page"
+      },
+      {
+        "date": "2027-03-27",
+        "label": "Email list warm-up"
+      }
+    ]
+  },
+  {
+    "slug": "shop-opening",
+    "title": "Shop opening",
+    "deadline": "2027-03-01",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "bloom",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-11-21",
+        "label": "Finalize shop name"
+      },
+      {
+        "date": "2026-12-16",
+        "label": "Shoot 20 items"
+      },
+      {
+        "date": "2027-01-10",
+        "label": "Write all listings"
+      },
+      {
+        "date": "2027-02-04",
+        "label": "Packaging samples"
+      },
+      {
+        "date": "2027-02-22",
+        "label": "Soft launch"
+      }
+    ],
+    "accent": "#d97706"
+  },
+  {
+    "slug": "portfolio-site-live",
+    "title": "Portfolio launch",
+    "deadline": "2027-01-20",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "launch",
+    "device": "mac-16x10",
+    "milestones": [
+      {
+        "date": "2026-11-11",
+        "label": "Pick a domain"
+      },
+      {
+        "date": "2026-11-26",
+        "label": "Wireframes done"
+      },
+      {
+        "date": "2026-12-16",
+        "label": "Case study pages"
+      },
+      {
+        "date": "2027-01-02",
+        "label": "Mobile check"
+      },
+      {
+        "date": "2027-01-16",
+        "label": "Analytics in"
+      }
+    ]
+  },
+  {
+    "slug": "mvp-first-users",
+    "title": "MVP to First Users",
+    "deadline": "2027-03-31",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "launch",
+    "device": "win-16x9",
+    "milestones": [
+      {
+        "date": "2026-11-11",
+        "label": "User interviews"
+      },
+      {
+        "date": "2026-12-11",
+        "label": "Scope 3 features"
+      },
+      {
+        "date": "2027-01-15",
+        "label": "Prototype"
+      },
+      {
+        "date": "2027-02-19",
+        "label": "Alpha build"
+      },
+      {
+        "date": "2027-03-19",
+        "label": "First 10 users"
+      }
+    ]
+  },
+  {
+    "slug": "indie-game-demo",
+    "title": "Game demo due",
+    "deadline": "2027-02-08",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "launch",
+    "device": "win-16x9",
+    "milestones": [
+      {
+        "date": "2026-11-30",
+        "label": "Lock the core loop"
+      },
+      {
+        "date": "2026-12-20",
+        "label": "Art style test"
+      },
+      {
+        "date": "2027-01-09",
+        "label": "Level 1 playable"
+      },
+      {
+        "date": "2027-01-25",
+        "label": "Sound pass"
+      },
+      {
+        "date": "2027-02-05",
+        "label": "Build and upload"
+      }
+    ],
+    "accent": "#22c55e"
+  },
+  {
+    "slug": "paper-submission",
+    "title": "Paper Submission",
+    "deadline": "2027-01-29",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "launch",
+    "device": "mac-16x10",
+    "milestones": [
+      {
+        "date": "2026-11-15",
+        "label": "Experiment plan"
+      },
+      {
+        "date": "2026-12-05",
+        "label": "All results in"
+      },
+      {
+        "date": "2026-12-25",
+        "label": "Full draft"
+      },
+      {
+        "date": "2027-01-09",
+        "label": "Coauthor review"
+      },
+      {
+        "date": "2027-01-24",
+        "label": "Polish all figures"
+      }
+    ]
+  },
+  {
+    "slug": "capstone-presentation",
+    "title": "Capstone talk",
+    "deadline": "2027-05-06",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "summit",
+    "device": "mac-16x10",
+    "milestones": [
+      {
+        "date": "2026-12-07",
+        "label": "Proposal approved"
+      },
+      {
+        "date": "2027-01-16",
+        "label": "Midpoint prototype"
+      },
+      {
+        "date": "2027-02-25",
+        "label": "User testing round"
+      },
+      {
+        "date": "2027-04-01",
+        "label": "Final report draft"
+      },
+      {
+        "date": "2027-04-26",
+        "label": "Poster printed"
+      }
+    ]
+  },
+  {
+    "slug": "dance-showcase",
+    "title": "Dance Showcase",
+    "deadline": "2027-05-29",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "bloom",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-12-10",
+        "label": "Auditions"
+      },
+      {
+        "date": "2027-01-19",
+        "label": "Full choreography"
+      },
+      {
+        "date": "2027-03-10",
+        "label": "Costume fitting"
+      },
+      {
+        "date": "2027-04-19",
+        "label": "Spacing rehearsal"
+      },
+      {
+        "date": "2027-05-22",
+        "label": "Dress rehearsal"
+      }
+    ],
+    "accent": "#f472b6"
+  },
+  {
+    "slug": "opening-night",
+    "title": "Opening Night",
+    "deadline": "2027-04-09",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "bloom",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-12-10",
+        "label": "Cast list posted"
+      },
+      {
+        "date": "2027-01-09",
+        "label": "Off book act one"
+      },
+      {
+        "date": "2027-02-08",
+        "label": "Off book act two"
+      },
+      {
+        "date": "2027-03-26",
+        "label": "Tech week begins"
+      },
+      {
+        "date": "2027-04-06",
+        "label": "Dress rehearsal"
+      }
+    ],
+    "accent": "#b91c1c"
+  },
+  {
+    "slug": "gallery-show",
+    "title": "Gallery Show Opens",
+    "deadline": "2027-03-18",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "bloom",
+    "device": "ipad-11",
+    "milestones": [
+      {
+        "date": "2026-11-18",
+        "label": "Finish piece one"
+      },
+      {
+        "date": "2026-12-18",
+        "label": "Finish piece four"
+      },
+      {
+        "date": "2027-01-17",
+        "label": "Last canvas done"
+      },
+      {
+        "date": "2027-02-16",
+        "label": "Frame and shoot"
+      },
+      {
+        "date": "2027-03-11",
+        "label": "Install the show"
+      }
+    ]
+  },
+  {
+    "slug": "move-to-tokyo",
+    "title": "Move to Tokyo",
+    "deadline": "2027-04-01",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "road",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-11-12",
+        "label": "Visa filed"
+      },
+      {
+        "date": "2026-12-22",
+        "label": "Find a share house"
+      },
+      {
+        "date": "2027-01-21",
+        "label": "Sell the car"
+      },
+      {
+        "date": "2027-02-25",
+        "label": "Ship boxes"
+      },
+      {
+        "date": "2027-03-22",
+        "label": "Farewell dinner"
+      }
+    ],
+    "accent": "#e11d48"
+  },
+  {
+    "slug": "new-lease-starts",
+    "title": "New Lease Starts",
+    "deadline": "2027-01-01",
+    "start": "2026-11-02",
+    "unit": "days",
+    "theme": "daybreak",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-11-12",
+        "label": "Sign the lease"
+      },
+      {
+        "date": "2026-11-24",
+        "label": "Renter's insurance"
+      },
+      {
+        "date": "2026-12-07",
+        "label": "Set up internet"
+      },
+      {
+        "date": "2026-12-20",
+        "label": "Book elevator slot"
+      },
+      {
+        "date": "2026-12-29",
+        "label": "Final walkthrough"
+      }
+    ]
+  },
+  {
+    "slug": "house-closing",
+    "title": "House Closing Day",
+    "deadline": "2027-02-26",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "road",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-11-18",
+        "label": "Preapproval"
+      },
+      {
+        "date": "2026-12-13",
+        "label": "Offer accepted"
+      },
+      {
+        "date": "2027-01-02",
+        "label": "Home inspection"
+      },
+      {
+        "date": "2027-01-27",
+        "label": "Appraisal done"
+      },
+      {
+        "date": "2027-02-19",
+        "label": "Final walkthrough"
+      }
+    ],
+    "accent": "#0f766e"
+  },
+  {
+    "slug": "retirement-day",
+    "title": "Retirement Day",
+    "deadline": "2027-06-30",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "bloom",
+    "device": "iphone-6.9",
+    "milestones": [
+      {
+        "date": "2026-12-12",
+        "label": "See the planner"
+      },
+      {
+        "date": "2027-01-31",
+        "label": "Enroll in Medicare"
+      },
+      {
+        "date": "2027-03-22",
+        "label": "Train successor"
+      },
+      {
+        "date": "2027-05-11",
+        "label": "Plan first trip"
+      },
+      {
+        "date": "2027-06-16",
+        "label": "Farewell lunch"
+      }
+    ]
+  },
+  {
+    "slug": "sabbatical-begins",
+    "title": "Sabbatical Begins",
+    "deadline": "2027-06-01",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "daybreak",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-12-03",
+        "label": "Manager sign-off"
+      },
+      {
+        "date": "2027-02-01",
+        "label": "Handoff plan"
+      },
+      {
+        "date": "2027-03-13",
+        "label": "Book month one"
+      },
+      {
+        "date": "2027-04-22",
+        "label": "Sublet the flat"
+      },
+      {
+        "date": "2027-05-22",
+        "label": "Out-of-office set"
+      }
+    ]
+  },
+  {
+    "slug": "family-reunion",
+    "title": "Family reunion",
+    "deadline": "2027-06-26",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "bloom",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-12-18",
+        "label": "Book the cabin"
+      },
+      {
+        "date": "2027-02-06",
+        "label": "Send the invites"
+      },
+      {
+        "date": "2027-03-28",
+        "label": "Flights booked"
+      },
+      {
+        "date": "2027-05-12",
+        "label": "Meal sign-up sheet"
+      },
+      {
+        "date": "2027-06-16",
+        "label": "Pack the car"
+      }
+    ]
+  },
+  {
+    "slug": "puppy-comes-home",
+    "title": "Puppy Comes Home",
+    "deadline": "2027-01-09",
+    "start": "2026-11-02",
+    "unit": "days",
+    "theme": "bloom",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-11-15",
+        "label": "Pick a vet"
+      },
+      {
+        "date": "2026-11-28",
+        "label": "Buy crate and gear"
+      },
+      {
+        "date": "2026-12-12",
+        "label": "Puppy-proof home"
+      },
+      {
+        "date": "2026-12-26",
+        "label": "Choose a name"
+      },
+      {
+        "date": "2027-01-07",
+        "label": "Stock puppy food"
+      }
+    ],
+    "accent": "#c2410c"
+  },
+  {
+    "slug": "black-belt-test",
+    "title": "Black Belt Test",
+    "deadline": "2027-05-15",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "summit",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-12-06",
+        "label": "Learn final form"
+      },
+      {
+        "date": "2027-01-15",
+        "label": "Spar twice weekly"
+      },
+      {
+        "date": "2027-02-24",
+        "label": "Board breaks"
+      },
+      {
+        "date": "2027-04-05",
+        "label": "Mock grading"
+      },
+      {
+        "date": "2027-05-05",
+        "label": "Rest and stretch"
+      }
+    ]
+  },
+  {
+    "slug": "kilimanjaro-climb",
+    "title": "Kilimanjaro Climb",
+    "deadline": "2027-02-20",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "summit",
+    "device": "iphone-6.9",
+    "milestones": [
+      {
+        "date": "2026-11-12",
+        "label": "Book guided trek"
+      },
+      {
+        "date": "2026-12-02",
+        "label": "Vaccines and visa"
+      },
+      {
+        "date": "2026-12-27",
+        "label": "Weekly hill hikes"
+      },
+      {
+        "date": "2027-01-21",
+        "label": "Break in boots"
+      },
+      {
+        "date": "2027-02-13",
+        "label": "Pack summit gear"
+      }
+    ],
+    "accent": "#7c3aed"
+  },
+  {
+    "slug": "open-water-mile",
+    "title": "Open Water Mile",
+    "deadline": "2027-06-19",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "road",
+    "device": "pixel-9",
+    "milestones": [
+      {
+        "date": "2026-12-31",
+        "label": "Swim 500 yards"
+      },
+      {
+        "date": "2027-02-19",
+        "label": "Swim 1,000 yards"
+      },
+      {
+        "date": "2027-04-05",
+        "label": "Breathing drills"
+      },
+      {
+        "date": "2027-05-10",
+        "label": "Open water swim"
+      },
+      {
+        "date": "2027-06-09",
+        "label": "Wetsuit test swim"
+      }
+    ]
+  },
+  {
+    "slug": "century-ride",
+    "title": "Century Bike Ride",
+    "deadline": "2027-05-02",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "road",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-12-03",
+        "label": "Bike fit"
+      },
+      {
+        "date": "2027-01-12",
+        "label": "First 30-mile ride"
+      },
+      {
+        "date": "2027-02-21",
+        "label": "First 60-mile ride"
+      },
+      {
+        "date": "2027-03-28",
+        "label": "Ride 80 miles"
+      },
+      {
+        "date": "2027-04-22",
+        "label": "Tune-up and taper"
+      }
+    ]
+  },
+  {
+    "slug": "powerlifting-meet",
+    "title": "Powerlifting meet",
+    "deadline": "2027-03-20",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "summit",
+    "device": "pixel-9",
+    "milestones": [
+      {
+        "date": "2026-11-30",
+        "label": "Register for meet"
+      },
+      {
+        "date": "2026-12-30",
+        "label": "Strength block one"
+      },
+      {
+        "date": "2027-01-29",
+        "label": "Peaking block"
+      },
+      {
+        "date": "2027-02-27",
+        "label": "Opener singles"
+      },
+      {
+        "date": "2027-03-14",
+        "label": "Deload week"
+      }
+    ]
+  },
+  {
+    "slug": "chess-tournament",
+    "title": "Chess Tournament",
+    "deadline": "2027-01-16",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "summit",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-11-07",
+        "label": "Opening repertoire"
+      },
+      {
+        "date": "2026-11-27",
+        "label": "Daily tactics"
+      },
+      {
+        "date": "2026-12-12",
+        "label": "Endgame study"
+      },
+      {
+        "date": "2026-12-27",
+        "label": "Rated games"
+      },
+      {
+        "date": "2027-01-12",
+        "label": "Review past games"
+      }
+    ]
+  },
+  {
+    "slug": "science-fair",
+    "title": "Science Fair",
+    "deadline": "2027-02-25",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "summit",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-11-17",
+        "label": "Pick a hypothesis"
+      },
+      {
+        "date": "2026-12-12",
+        "label": "Run the experiment"
+      },
+      {
+        "date": "2027-01-06",
+        "label": "Analyze the data"
+      },
+      {
+        "date": "2027-01-31",
+        "label": "Lay out the board"
+      },
+      {
+        "date": "2027-02-18",
+        "label": "Judging talk"
+      }
+    ],
+    "accent": "#14b8a6"
+  },
+  {
+    "slug": "robotics-competition",
+    "title": "Robotics contest",
+    "deadline": "2027-03-06",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "summit",
+    "device": "win-16x9",
+    "milestones": [
+      {
+        "date": "2026-11-16",
+        "label": "Game strategy set"
+      },
+      {
+        "date": "2026-12-16",
+        "label": "Drivetrain built"
+      },
+      {
+        "date": "2027-01-15",
+        "label": "Robot assembled"
+      },
+      {
+        "date": "2027-02-09",
+        "label": "Drive practice"
+      },
+      {
+        "date": "2027-02-27",
+        "label": "Pack the pit"
+      }
+    ]
+  },
+  {
+    "slug": "law-review-note",
+    "title": "Law Review note",
+    "deadline": "2027-01-25",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "summit",
+    "device": "mac-16x10",
+    "milestones": [
+      {
+        "date": "2026-11-16",
+        "label": "Topic approved"
+      },
+      {
+        "date": "2026-12-01",
+        "label": "Research memo"
+      },
+      {
+        "date": "2026-12-21",
+        "label": "Full draft"
+      },
+      {
+        "date": "2027-01-05",
+        "label": "Editor feedback"
+      },
+      {
+        "date": "2027-01-20",
+        "label": "Citation check"
+      }
+    ]
+  },
+  {
+    "slug": "dissertation-deposit",
+    "title": "Dissertation due",
+    "deadline": "2027-06-18",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "launch",
+    "device": "mac-16x10",
+    "milestones": [
+      {
+        "date": "2026-11-30",
+        "label": "Chapter four draft"
+      },
+      {
+        "date": "2027-01-19",
+        "label": "Chapter five draft"
+      },
+      {
+        "date": "2027-03-10",
+        "label": "Full draft done"
+      },
+      {
+        "date": "2027-04-24",
+        "label": "Defense passed"
+      },
+      {
+        "date": "2027-05-29",
+        "label": "Format check"
+      }
+    ]
+  },
+  {
+    "slug": "residency-starts",
+    "title": "Residency Starts",
+    "deadline": "2027-06-21",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "daybreak",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2027-03-23",
+        "label": "Sign the contract"
+      },
+      {
+        "date": "2027-04-12",
+        "label": "Find an apartment"
+      },
+      {
+        "date": "2027-05-07",
+        "label": "License paperwork"
+      },
+      {
+        "date": "2027-06-01",
+        "label": "Move to new city"
+      },
+      {
+        "date": "2027-06-16",
+        "label": "Hospital badge"
+      }
+    ]
+  },
+  {
+    "slug": "student-teaching",
+    "title": "Teaching starts",
+    "deadline": "2027-01-19",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "daybreak",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-11-10",
+        "label": "Meet mentor"
+      },
+      {
+        "date": "2026-11-30",
+        "label": "Clearance"
+      },
+      {
+        "date": "2026-12-15",
+        "label": "First lesson plans"
+      },
+      {
+        "date": "2027-01-01",
+        "label": "Observation"
+      },
+      {
+        "date": "2027-01-15",
+        "label": "Pack teacher bag"
+      }
+    ]
+  },
+  {
+    "slug": "first-hospital-shift",
+    "title": "First hospital day",
+    "deadline": "2027-02-08",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "daybreak",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-11-20",
+        "label": "License verified"
+      },
+      {
+        "date": "2026-12-10",
+        "label": "Badge, onboarding"
+      },
+      {
+        "date": "2026-12-30",
+        "label": "Scrubs and shoes"
+      },
+      {
+        "date": "2027-01-19",
+        "label": "Unit orientation"
+      },
+      {
+        "date": "2027-02-05",
+        "label": "Night meal prep"
+      }
+    ]
+  },
+  {
+    "slug": "bootcamp-demo-night",
+    "title": "Demo night",
+    "deadline": "2027-03-04",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "launch",
+    "device": "mac-16x10",
+    "milestones": [
+      {
+        "date": "2026-11-24",
+        "label": "Pick capstone idea"
+      },
+      {
+        "date": "2026-12-19",
+        "label": "Backend working"
+      },
+      {
+        "date": "2027-01-13",
+        "label": "Frontend polished"
+      },
+      {
+        "date": "2027-02-07",
+        "label": "Deployed"
+      },
+      {
+        "date": "2027-02-25",
+        "label": "Demo script ready"
+      }
+    ],
+    "accent": "#8b5cf6"
+  },
+  {
+    "slug": "open-source-1-0",
+    "title": "Open Source 1.0",
+    "deadline": "2027-05-12",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "launch",
+    "device": "win-16x9",
+    "milestones": [
+      {
+        "date": "2026-12-03",
+        "label": "Docs site live"
+      },
+      {
+        "date": "2027-01-12",
+        "label": "API freeze"
+      },
+      {
+        "date": "2027-02-21",
+        "label": "First RC"
+      },
+      {
+        "date": "2027-04-02",
+        "label": "Second RC"
+      },
+      {
+        "date": "2027-05-02",
+        "label": "Changelog written"
+      }
+    ]
+  },
+  {
+    "slug": "newsletter-launch",
+    "title": "Newsletter Launch",
+    "deadline": "2026-12-28",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "launch",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-11-13",
+        "label": "Name and tagline"
+      },
+      {
+        "date": "2026-11-23",
+        "label": "Write three issues"
+      },
+      {
+        "date": "2026-12-03",
+        "label": "Landing page live"
+      },
+      {
+        "date": "2026-12-14",
+        "label": "Invite 50 friends"
+      },
+      {
+        "date": "2026-12-24",
+        "label": "Schedule send"
+      }
+    ]
+  },
+  {
+    "slug": "winter-trip-japan",
+    "title": "Japan trip",
+    "deadline": "2026-12-22",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "road",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-11-07",
+        "label": "Book ryokan stay"
+      },
+      {
+        "date": "2026-11-17",
+        "label": "Rail pass decision"
+      },
+      {
+        "date": "2026-11-27",
+        "label": "Plan Kyoto day"
+      },
+      {
+        "date": "2026-12-08",
+        "label": "Get yen and eSIM"
+      },
+      {
+        "date": "2026-12-19",
+        "label": "Pack winter layers"
+      }
+    ],
+    "accent": "#60a5fa"
+  },
+  {
+    "slug": "spring-break-trip",
+    "title": "Spring Break Trip",
+    "deadline": "2027-03-13",
+    "start": "2026-11-02",
+    "unit": "days",
+    "theme": "road",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2026-12-13",
+        "label": "Book flights"
+      },
+      {
+        "date": "2027-01-02",
+        "label": "Book the hostel"
+      },
+      {
+        "date": "2027-01-27",
+        "label": "Plan the itinerary"
+      },
+      {
+        "date": "2027-02-21",
+        "label": "Travel insurance"
+      },
+      {
+        "date": "2027-03-10",
+        "label": "Pack the bag"
+      }
+    ]
+  },
+  {
+    "slug": "promotion-packet",
+    "title": "Promo packet due",
+    "deadline": "2027-03-12",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "launch",
+    "device": "win-16x9",
+    "milestones": [
+      {
+        "date": "2026-11-22",
+        "label": "Pick 3 big wins"
+      },
+      {
+        "date": "2026-12-17",
+        "label": "Impact metrics"
+      },
+      {
+        "date": "2027-01-11",
+        "label": "Peer feedback"
+      },
+      {
+        "date": "2027-02-05",
+        "label": "Manager review"
+      },
+      {
+        "date": "2027-03-02",
+        "label": "Polish packet"
+      }
+    ]
+  },
+  {
+    "slug": "board-meeting",
+    "title": "Q1 Board Meeting",
+    "deadline": "2027-01-27",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "summit",
+    "device": "mac-16x10",
+    "milestones": [
+      {
+        "date": "2026-11-28",
+        "label": "Close December"
+      },
+      {
+        "date": "2026-12-13",
+        "label": "KPI dashboard"
+      },
+      {
+        "date": "2026-12-28",
+        "label": "Draft board deck"
+      },
+      {
+        "date": "2027-01-12",
+        "label": "CEO review"
+      },
+      {
+        "date": "2027-01-23",
+        "label": "Send the pre-read"
+      }
+    ]
+  },
+  {
+    "slug": "spring-finals",
+    "title": "Spring Finals Week",
+    "deadline": "2027-05-17",
+    "start": "2026-11-02",
+    "unit": "mornings",
+    "theme": "summit",
+    "device": "iphone-6.3",
+    "milestones": [
+      {
+        "date": "2027-02-06",
+        "label": "Plan the term"
+      },
+      {
+        "date": "2027-03-08",
+        "label": "Midterm grades"
+      },
+      {
+        "date": "2027-04-02",
+        "label": "Start study guides"
+      },
+      {
+        "date": "2027-04-26",
+        "label": "Group reviews"
+      },
+      {
+        "date": "2027-05-10",
+        "label": "Practice finals"
+      }
+    ]
+  }
+]
